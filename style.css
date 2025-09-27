@@ -5,7 +5,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  background-image: url('https://img.freepik.com/premium-photo/financial-investment-concept-trading-graph-money-coins-ideal-background_795881-15092.jpg'); 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: cover; 
+  background-position: center center; 
+  min-height: 100vh; 
 }
 p {
   font-size: 15px;
