@@ -1,6 +1,9 @@
 # prettycoinz
-Featured coin of the moment from my coin collection.
+<h1>Featured coin of the moment from my coin collection.</h1>
 
+![PRETTY COIN ROSE](https://github.com/user-attachments/assets/b3f381e9-781f-47f4-81b9-28ef1dea6f9e)
+
+# Sponsors
 ### [ 🛰️ PROJECT SUBSYSTEM ]
 **Part of the [Moore Archive](https://emaze.me/tma) Creative Ecosystem.**  
 *Bridging the gap between digital code and physical reality.*
