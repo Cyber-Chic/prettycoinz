@@ -1,6 +1,6 @@
 # prettycoinz
 Featured coin of the moment from my coin collection.
-# Sponsors
+
 ### [ 🛰️ PROJECT SUBSYSTEM ]
 **Part of the [Moore Archive](https://emaze.me/tma) Creative Ecosystem.**  
 *Bridging the gap between digital code and physical reality.*
