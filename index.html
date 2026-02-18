@@ -1,35 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <title>Cyber-Chic | Featured Coin </title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main>
-      <div class="imagebox">
-       <a href="https://emaze.me/prettycoinz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber-Chic | Featured Artifact: The Rose</title>
+  
+  <!-- Importing Playfair for that high-end Glamour vibe -->
+  <link href="https://fonts.googleapis.com" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      /* THE ROYAL VELVET GRADIENT: 100% LEGAL & CHIC */
+      background: radial-gradient(circle, #2e0b0b 0%, #000000 100%);
+      font-family: 'Lato', sans-serif;
+      color: #ffffff;
+      overflow: hidden;
+    }
+
+    .imagebox {
+      background: rgba(255, 255, 255, 0.03); /* Subtle glass texture */
+      backdrop-filter: blur(15px); /* Professional frost effect */
+      border: 1px solid rgba(255, 215, 0, 0.2); /* Elegant thin gold border */
+      padding: 40px;
+      border-radius: 24px;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+      max-width: 340px;
+      transition: transform 0.3s ease;
+    }
+
+    .imagebox:hover {
+      transform: scale(1.02); /* Slight pulse when hovered */
+    }
+
+    img {
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      image-rendering: smooth;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #fdfdfd;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #cccccc;
+      margin-bottom: 20px;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #e0e0e0;
+    }
+
+    .cta {
+      font-weight: 700;
+      color: #ffd700; /* Gold text for the button */
+      text-decoration: none;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .cta:hover {
+      text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="imagebox">
+      <!-- PORTAL TO EMAZE -->
+      <a href="https://emaze.me/prettycoinz">
         <img
           src="https://www.icollecteverything.com/images/coin/x5PAT0Xq9pS1nWvIuQSf@random.com/71812_1.jpg"
           width="260"
-          height="250"
-          alt="QR Code to Emaze"
+          alt="JFK Half Dollar Rose Artifact"
         />
-       </a>
-        <h1>JFK Half Dollar: Rose!</h1>
-        <p>
-          I got this beauty back in 2024.  What I love about this gorgeous coin is how the red pedals really pop against the faint traces of green in the background!</p>
-         <p><strong>Click the rose to visit the official Pretty Coinz Gallery!</strong>
-        </p>
-      </div>
-    </main>
-  </body>
+      </a>
+      
+      <h1>JFK Half Dollar: Rose!</h1>
+      
+      <p class="quote">
+        "What I love about this gorgeous coin is how the red petals really pop against the faint traces of green in the background!"
+      </p>
+
+      <a href="https://emaze.me" class="cta">
+        &mdash; Open The Gallery &mdash;
+      </a>
+    </div>
+  </main>
+
+</body>
 </html>
