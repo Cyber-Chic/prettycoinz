@@ -34,13 +34,13 @@ The architecture balances technical data (NASA/Beal) with the curator’s person
 
 # Sponsors
 ### [ 🛰️ PROJECT SUBSYSTEM ]
-**Part of the [Moore Archive](https://emaze.me) Creative Ecosystem.**
+**Part of the [Moore Archive](https://emaze.me/TMA) Creative Ecosystem.**
 *Bridging the gap between digital code and physical reality.*
 
 **EXPLORE THE NETWORK:**
-*   **🔭 RESEARCH:** [NASA Exoplanet Watch Data](https://github.com)
-*   **🧪 ARCHIVE:** [The Moore Archive | Physical Artifact Hunt](https://emaze.me)
-*   **📡 TERMINAL:** [Cyber-Chic Home & Protocols](https://github.com)
+*   **🔭 RESEARCH:** [NASA Exoplanet Watch Data](https://github.com/Cyber-Chic/nasa)
+*   **🧪 ARCHIVE:** [The Moore Archive | Physical Artifact Hunt](https://emaze.me/TMA)
+*   **📡 TERMINAL:** [Cyber-Chic Home & Protocols](https://github.com/cyber-chic)
 
 **[ ☕ MISSION SUSTENANCE ]**
 Sponsorships support my full creative ecosystem—from public-facing research and citizen science to the physical art drops of The Moore Archive.
