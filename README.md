@@ -44,7 +44,7 @@ The architecture balances technical data (NASA/Beal) with the curator’s person
 
 **[ ☕ MISSION SUSTENANCE ]**
 Sponsorships support my full creative ecosystem—from public-facing research and citizen science to the physical art drops of The Moore Archive.
-[**➡️ SUPPORT THE JOURNEY VIA PAYPAL**](https://www.paypal.com)
+[**➡️ SUPPORT THE JOURNEY VIA PAYPAL**](https://www.paypal.com/donate/?hosted_button_id=CJVWS45KF46ZE)
 
 ---
 **ANGELA N. MOORE // SIGNAL STATUS: 🟢 NOMINAL**
