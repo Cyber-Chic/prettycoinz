@@ -20,7 +20,7 @@ This artifact represents the core of the **Beauty Index**. It is a study in high
     *   *Series: Aesthetic Inquiry*
     *   *Unit: The Moore Signal*
     *   *Observation: High-contrast petal/background synchronization.*
-*   **🧪 [ THE COLLECTION ](https://emaze.me/prettycoinz)**
+*   **🧪 [ THE COLLECTION ](https://cyber-chic.github.io/prettycoinz/info)**
     *   *Full Asset Inventory & Beal Benchmark Tracker*
 
 ---
