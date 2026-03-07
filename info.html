@@ -138,43 +138,63 @@
         border-bottom: 1px solid var(--neon-blue);
     }
 
-/* MOBILE CALIBRATION */
+/* MOBILE CALIBRATION (REFINED) */
 @media screen and (max-width: 600px) {
+    /* 1. The Header Name: Angela Moore */
+    .name-brand {
+        font-size: 0.9rem !important; /* Larger & clearer */
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+    }
+
     h1 { 
-        font-size: 1.8rem; /* Scales down the title so it doesn't wrap awkwardly */
+        font-size: 1.8rem; 
         padding: 0 10px;
     }
     
+    /* 2. The Hero Coin */
     .hero-exhibit img {
-        max-width: 250px; /* Keeps the Rose Coin from taking up the whole screen */
+        max-width: 220px; 
     }
 
+    /* 3. The Action Hub Buttons */
     .link-hub {
-        grid-template-columns: 1fr; /* Stacks buttons vertically for easy tapping */
-        padding: 0 10px;
+        grid-template-columns: 1fr; 
+        padding: 0 20px;
+        gap: 20px; /* More space between buttons */
     }
 
     .archive-btn {
-        padding: 22px; /* Slightly taller for easier tapping */
+        padding: 30px 20px; /* Much taller for mobile */
+        min-height: 100px; /* Forces the button to be a "box" */
     }
 
+    /* 4. The Blue Labels: External Feature / Mission Objective */
     .archive-btn span {
-        font-size: 0.75rem; /* Bumping the blue label size */
-        letter-spacing: 2px;
+        font-size: 0.85rem !important; /* Larger blue text */
+        letter-spacing: 1.5px;
+        margin-bottom: 8px;
+        font-weight: 700; /* Makes the blue "pop" more */
     }
 
+    /* 5. The Main Button Text: MASTER CATALOGUE */
     .archive-btn {
-        font-size: 1rem; /* Bumping the main white title size */
+        font-size: 1.1rem !important; 
+        line-height: 1.2;
     }
 
+    /* 6. Body Content */
     .section-title {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        margin-top: 50px;
     }
 
     .body-text {
-        font-size: 0.95rem; /* Slightly smaller for better readability on small screens */
+        font-size: 1rem; 
+        line-height: 1.7;
     }
 }
+
 
 </style>
 
