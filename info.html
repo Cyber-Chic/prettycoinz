@@ -1,4 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Moore Archive | Pretty Coinz</title>
 <style>
+    /* GLOBAL FIX */
+    * { box-sizing: border-box; }
+
     :root {
         --neon-blue: #00e5ff;
         --bg-black: #050505;
@@ -10,234 +19,106 @@
         color: #d1d1d1;
         font-family: 'Raleway', sans-serif;
         margin: 0;
-        line-height: 1.8;
-    }
-
-    /* THE HEADER */
-    header {
-        text-align: center;
-        padding: 60px 20px 30px;
-    }
-
-    .name-brand {
-        font-family: 'Libre Baskerville', serif;
-        font-size: 0.7rem;
-        letter-spacing: 6px;
-        text-transform: uppercase;
-        color: var(--neon-blue);
-        margin-bottom: 10px;
-        display: block;
-    }
-
-    h1 {
-        font-family: 'Libre Baskerville', serif;
-        font-size: 2.2rem;
-        color: #fff;
-        margin: 0;
-        letter-spacing: 1px;
-    }
-
-    /* THE HERO IMAGE: THE ROSE COIN */
-    .hero-exhibit {
-        max-width: 900px;
-        margin: 0 auto;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .hero-exhibit img {
-        width: 100%;
-        max-width: 400px; /* Adjust based on your photo's detail */
-        border-radius: 50%; /* Keeps the coin circular */
-        filter: drop-shadow(0 0 20px rgba(0, 229, 255, 0.2));
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        transition: 0.5s ease;
-    }
-
-    .hero-exhibit img:hover {
-        filter: drop-shadow(0 0 30px var(--neon-blue));
-    }
-
-    /* THE CONTENT */
-    .container {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 20px 20px 40px;
-    }
-
-    .section-title {
-        font-family: 'Libre Baskerville', serif;
-        font-size: 1.1rem;
-        color: #fff;
-        border-left: 2px solid var(--neon-blue);
-        padding-left: 15px;
-        margin: 40px 0 20px;
-    }
-
-    .body-text {
-        font-size: 1rem;
-        color: #aaa;
-        margin-bottom: 30px;
-    }
-
-    /* THE HUB: BUTTONS */
-    .link-hub {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 15px;
-        margin-top: 60px;
-    }
-
-    .archive-btn {
-        border: 1px solid #333;
-        background: var(--glass);
-        color: #fff;
-        padding: 20px;
-        text-decoration: none;
-        text-align: center;
-        font-family: 'Libre Baskerville', serif;
-        font-size: 0.8rem;
-        letter-spacing: 2px;
-        transition: 0.3s all ease;
+        padding: 0;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+        -webkit-font-smoothing: antialiased;
     }
 
-    .archive-btn span {
-        font-size: 0.6rem;
-        color: var(--neon-blue);
-        margin-bottom: 5px;
-        text-transform: uppercase;
-    }
+    /* HEADER */
+    header { width: 100%; padding: 8vh 0; text-align: center; border-bottom: 1px solid #333; }
+    .name-brand { font-family: 'Libre Baskerville', serif; font-size: 0.75rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 20px; display: inline-block; }
+    h1 { font-family: 'Libre Baskerville', serif; font-size: clamp(1.8rem, 5vw, 2.5rem); color: #fff; margin: 0; letter-spacing: 2px; text-transform: uppercase; }
 
-    .archive-btn:hover {
-        border-color: var(--neon-blue);
-        background: rgba(0, 229, 255, 0.05);
-        box-shadow: 0 5px 15px rgba(0, 229, 255, 0.1);
-    }
+    /* HERO IMAGE */
+    .hero-exhibit { padding: 60px 20px; text-align: center; }
+    .hero-exhibit img { width: 100%; max-width: 400px; border-radius: 50%; filter: drop-shadow(0 0 15px rgba(0, 229, 255, 0.2)); border: 1px solid #222; }
 
-    /* THE GATEWAY */
-    .gateway {
-        text-align: center;
-        padding: 80px 0;
-    }
+    /* CONTENT */
+    .container { width: 100%; max-width: 900px; padding: 0 40px; }
+    .section-title { font-family: 'Libre Baskerville', serif; font-size: 1.2rem; color: #fff; border-left: 2px solid var(--neon-blue); padding-left: 15px; margin: 60px 0 20px; }
+    .body-text { font-size: 1.1rem; color: #aaa; line-height: 1.8; margin-bottom: 30px; }
 
-    .back-link {
-        color: #666;
-        text-decoration: none;
-        font-size: 0.7rem;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        border-bottom: 1px solid transparent;
-        transition: 0.3s;
-    }
+    /* LINK HUB (The Big Buttons) */
+    .link-hub { width: 100%; padding: 80px 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 25px; }
+    .archive-btn { text-decoration: none; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #333; background: var(--glass); padding: 25px 40px; transition: 0.4s; min-width: 280px; }
+    .archive-btn span { font-size: 0.65rem; color: var(--neon-blue); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 8px; }
+    .archive-btn strong { font-family: 'Libre Baskerville', serif; color: #fff; font-size: 0.9rem; letter-spacing: 2px; font-weight: 400; }
+    .archive-btn:hover { border-color: var(--neon-blue); box-shadow: 0 0 20px rgba(0, 229, 255, 0.2); }
 
-    .back-link:hover {
-        color: #fff;
-        border-bottom: 1px solid var(--neon-blue);
-    }
+    /* GATEWAY */
+    .gateway { padding: 60px 0; text-align: center; width: 100%; }
+    .back-link { color: #666; text-decoration: none; font-size: 0.75rem; letter-spacing: 3px; text-transform: uppercase; border-bottom: 1px solid transparent; }
 
-/* MOBILE CALIBRATION (REFINED) */
-@media screen and (max-width: 600px) {
-    /* 1. The Header Name: Angela Moore */
-    .name-brand {
-        font-size: 0.9rem !important; /* Larger & clearer */
-        letter-spacing: 3px;
-        margin-bottom: 15px;
-    }
+    /* MOBILE CALIBRATION (Mirroring the Gold Site's Success) */
+    @media screen and (max-width: 600px) {
+        header { padding: 40px 20px; }
+        .name-brand { font-size: 0.85rem; letter-spacing: 2px; }
+        h1 { font-size: 1.6rem; }
+        
+        .hero-exhibit img { max-width: 220px; }
+        
+        .link-hub { flex-direction: column; align-items: center; gap: 20px; }
+        .archive-btn { width: 90%; max-width: 320px; padding: 35px 20px; }
+        .archive-btn span { font-size: 0.8rem; }
+        .archive-btn strong { font-size: 1rem; }
 
-    h1 { 
-        font-size: 1.8rem; 
-        padding: 0 10px;
+        .section-title { font-size: 1.1rem; }
+        .body-text { font-size: 1rem; padding: 0 10px; }
     }
-    
-    /* 2. The Hero Coin */
-    .hero-exhibit img {
-        max-width: 220px; 
-    }
-
-    /* 3. The Action Hub Buttons */
-    .link-hub {
-        grid-template-columns: 1fr; 
-        padding: 0 20px;
-        gap: 20px; /* More space between buttons */
-    }
-
-    .archive-btn {
-        padding: 30px 20px; /* Much taller for mobile */
-        min-height: 100px; /* Forces the button to be a "box" */
-    }
-
-    /* 4. The Blue Labels: External Feature / Mission Objective */
-    .archive-btn span {
-        font-size: 0.85rem !important; /* Larger blue text */
-        letter-spacing: 1.5px;
-        margin-bottom: 8px;
-        font-weight: 700; /* Makes the blue "pop" more */
-    }
-
-    /* 5. The Main Button Text: MASTER CATALOGUE */
-    .archive-btn {
-        font-size: 1.1rem !important; 
-        line-height: 1.2;
-    }
-
-    /* 6. Body Content */
-    .section-title {
-        font-size: 1.2rem;
-        margin-top: 50px;
-    }
-
-    .body-text {
-        font-size: 1rem; 
-        line-height: 1.7;
-    }
-}
-
-
 </style>
+</head>
+<body>
 
 <header>
-    <span class="name-brand">Angela N. Moore // Independent Archivist</span>
+    <div class="name-brand">Angela N. Moore \\ Independent Archivist</div>
     <h1>PRETTY COINZ // THE BEAUTY INDEX</h1>
 </header>
 
-<!-- HERO IMAGE SPOTLIGHT -->
 <section class="hero-exhibit">
-    <!-- ADD YOUR ROSE COIN IMAGE URL HERE -->
-    <img src="https://github.com/user-attachments/assets/b3f381e9-781f-47f4-81b9-28ef1dea6f9e" alt="The Beauty Index Primary Artifact">
+    <img src="https://github.com/user-attachments/assets/b3f381e9-781f-47f4-81b9-28ef1dea6f9e" alt="Rose Coin">
 </section>
 
 <div class="container">
     <div class="section-title">🌹 The Sovereign Anchor</div>
-    <p class="body-text">
+    <div class="body-text">
+     <p class="body-text">
         Backed by a disciplined investment philosophy featured in <strong>The New York Times</strong>, I have built a thriving portfolio that affords the freedom to pursue specialized research. <strong>Pretty Coinz</strong> is a numismatic study focused on artistic merit—evaluating whether aesthetic assets can retain their worth or surpass traditional benchmarks. To visualize this progress, I acquire a specific coin for every brokerage milestone reached, serving as <strong>Physical Milestone Trackers</strong> for my financial growth.
     </p>
+    </div>
 
     <div class="section-title">🌹 The Final Provenance</div>
+    <div class="body-text">
+        <p class="body-text">
     <p class="body-text">
         This project concludes with the <strong>Beal Benchmark</strong>: an inquiry spanning over a decade aimed at independently surpassing the valuation of the official Beal Prize. The archive’s first chapter will close with the acquisition of the <strong>Beal Mountain Proof</strong>—the definitive artifact of analytical persistence.
     </p>
-
-    <div class="link-hub">
-        <a href="https://www.nytimes.com/paidpost/tiaa/on-the-right-track-retirement-ready.html" class="archive-btn">
-            <span>External Feature</span>
-            INVESTMENT PHILOSOPHY [NYT]
-        </a>
-
-        <a href="https://www.icollecteverything.com/db/custom/1157864/coin/95071/" class="archive-btn">
-            <span>Mission Objective</span>
-            THE BEAL PROOF REGISTRY
-        </a>
-
-<a href="https://www.icollecteverything.com/share/1157864/coin_Coins/main/title/" class="archive-btn">
-    <span>THE MOORE ARCHIVE</span>
-    THE COIN CATALOGUE
-</a>
-    </div>
-
-    <div class="gateway">
-        <a href="https://emaze.me/prettycoinz#*Home" class="back-link">← Return to Terminal Hub</a>
     </div>
 </div>
+
+<div class="link-hub">
+    <a href="https://www.nytimes.com/paidpost/tiaa/on-the-right-track-retirement-ready.html" class="archive-btn">
+        <span>New York Times</span>
+        <strong>INVESTMENT PHILOSOPHY</strong>
+    </a>
+    <a href="https://www.icollecteverything.com/db/custom/1157864/coin/95071/" class="archive-btn">
+        <span>Mission Objective</span>
+        <strong>THE BEAL PROOF REGISTRY</strong>
+    </a>
+    <a href="https://www.icollecteverything.com/share/1157864/coin_Coins/main/title/" class="archive-btn">
+        <span>The Moore Archive</span>
+        <strong>THE COIN CATALOGUE</strong>
+    </a>
+</div>
+
+<div class="gateway">
+    <a href="https://emaze.me/prettycoinz#*Home" class="back-link">← Return to Terminal Hub</a>
+</div>
+
+<footer>
+    © 2026 THE MOORE ARCHIVE // THE SIGNAL SURVIVES ON HONOR.
+</footer>
+
+</body>
+</html>
