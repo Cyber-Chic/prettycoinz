@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Moore Archive | Pretty Coinz</title>
 <style>
-    /* GLOBAL FIX */
+    /* GLOBAL RESET */
     * { box-sizing: border-box; }
 
     :root {
@@ -24,84 +24,64 @@
         flex-direction: column;
         align-items: center;
         -webkit-font-smoothing: antialiased;
+        min-height: 100vh; /* Ensures content fills screen */
     }
 
-.protocol-link {
-    color: var(--neon-blue);
-    text-decoration: none;
-    border-bottom: 1px solid rgba(0, 229, 255, 0.3);
-    transition: 0.3s ease;
-    font-weight: 500;
-}
+    /* TYPOGRAPHY & LINKS */
+    .protocol-link {
+        color: var(--neon-blue);
+        text-decoration: none;
+        border-bottom: 1px solid rgba(0, 229, 255, 0.3);
+        transition: 0.3s ease;
+    }
 
-.protocol-link:hover {
-    border-bottom: 1px solid var(--neon-blue);
-    background: rgba(0, 229, 255, 0.05);
-}
-
-.highlight {
-    background: rgba(0, 229, 255, 0.1);
-    padding: 2px 4px;
-    border-radius: 2px;
-}
-
-.artifact-link {
-    color: #fff; /* White text so it's easy on the eyes */
-    text-decoration: none;
-    border-bottom: 1px solid var(--neon-blue);
-    padding: 0 2px;
-    background: rgba(0, 229, 255, 0.05); /* Very soft blue tint */
-    transition: 0.4s ease;
-}
-
-.artifact-link:hover {
-    background: rgba(0, 229, 255, 0.15);
-    color: var(--neon-blue);
-    box-shadow: 0 0 10px rgba(0, 229, 255, 0.2);
-}
-
-
+    .highlight {
+        background: rgba(0, 229, 255, 0.1);
+        padding: 2px 4px;
+        border-radius: 2px;
+    }
 
     /* HEADER */
-    header { width: 100%; padding: 8vh 0; text-align: center; border-bottom: 1px solid #333; }
-    .name-brand { font-family: 'Libre Baskerville', serif; font-size: 0.75rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 20px; display: inline-block; }
-    h1 { font-family: 'Libre Baskerville', serif; font-size: clamp(1.8rem, 5vw, 2.5rem); color: #fff; margin: 0; letter-spacing: 2px; text-transform: uppercase; }
+    header { width: 100%; padding: 6vh 0; text-align: center; border-bottom: 1px solid #222; }
+    .name-brand { font-family: 'Libre Baskerville', serif; font-size: 0.75rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 15px; display: inline-block; }
+    h1 { font-family: 'Libre Baskerville', serif; font-size: clamp(1.6rem, 5vw, 2.2rem); color: #fff; margin: 0; letter-spacing: 2px; text-transform: uppercase; }
 
-    /* HERO IMAGE */
-    .hero-exhibit { padding: 60px 20px; text-align: center; }
-    .hero-exhibit img { width: 100%; max-width: 400px; border-radius: 50%; filter: drop-shadow(0 0 15px rgba(0, 229, 255, 0.2)); border: 1px solid #222; }
+    /* HERO EXHIBIT */
+    .hero-exhibit { padding: 40px 20px; text-align: center; }
+    .hero-exhibit img { width: 100%; max-width: 380px; border-radius: 50%; filter: drop-shadow(0 0 15px rgba(0, 229, 255, 0.15)); border: 1px solid #1a1a1a; }
 
-    /* CONTENT */
-    .container { width: 100%; max-width: 900px; padding: 0 40px; }
-    .section-title { font-family: 'Libre Baskerville', serif; font-size: 1.2rem; color: #fff; border-left: 2px solid var(--neon-blue); padding-left: 15px; margin: 60px 0 20px; }
-    .body-text { font-size: 1.1rem; color: #aaa; line-height: 1.8; margin-bottom: 30px; }
+    /* CONTAINER CONTENT */
+    .container { width: 100%; max-width: 850px; padding: 0 30px; }
+    .section-title { font-family: 'Libre Baskerville', serif; font-size: 1.1rem; color: #fff; border-left: 2px solid var(--neon-blue); padding-left: 15px; margin: 50px 0 20px; }
+    .body-text { font-size: 1.05rem; color: #aaa; line-height: 1.8; margin-bottom: 25px; text-align: justify; }
 
-    /* LINK HUB (The Big Buttons) */
-    .link-hub { width: 100%; padding: 80px 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 25px; }
-    .archive-btn { text-decoration: none; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #333; background: var(--glass); padding: 25px 40px; transition: 0.4s; min-width: 280px; }
-    .archive-btn span { font-size: 0.65rem; color: var(--neon-blue); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 8px; }
-    .archive-btn strong { font-family: 'Libre Baskerville', serif; color: #fff; font-size: 0.9rem; letter-spacing: 2px; font-weight: 400; }
-    .archive-btn:hover { border-color: var(--neon-blue); box-shadow: 0 0 20px rgba(0, 229, 255, 0.2); }
+    /* LINK HUB */
+    .link-hub { width: 100%; padding: 60px 20px; display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; }
+    .archive-btn { text-decoration: none; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #333; background: var(--glass); padding: 25px 30px; transition: 0.4s; min-width: 260px; }
+    .archive-btn span { font-size: 0.65rem; color: var(--neon-blue); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+    .archive-btn strong { font-family: 'Libre Baskerville', serif; color: #fff; font-size: 0.85rem; letter-spacing: 1px; font-weight: 400; }
+    .archive-btn:hover { border-color: var(--neon-blue); background: rgba(0, 229, 255, 0.05); }
 
-    /* GATEWAY */
-    .gateway { padding: 60px 0; text-align: center; width: 100%; }
-    .back-link { color: #666; text-decoration: none; font-size: 0.75rem; letter-spacing: 3px; text-transform: uppercase; border-bottom: 1px solid transparent; }
+    /* GATEWAY & FOOTER */
+    .gateway { padding: 40px 0; text-align: center; width: 100%; }
+    .back-link { color: #555; text-decoration: none; font-size: 0.7rem; letter-spacing: 3px; text-transform: uppercase; transition: 0.3s; }
+    .back-link:hover { color: #fff; }
 
-    /* MOBILE CALIBRATION (Mirroring the Gold Site's Success) */
+    .terminal-footer { width: 100%; text-align: center; padding: 40px 20px; margin-top: auto; border-top: 1px solid #111; }
+    .footer-signal { color: #555; text-decoration: none; font-size: 0.65rem; letter-spacing: 2px; text-transform: uppercase; transition: 0.4s ease; display: inline-block; }
+    .footer-prompt { color: var(--neon-blue); font-weight: bold; }
+    .footer-signal:hover { color: #fff; text-shadow: 0 0 8px var(--neon-blue); }
+
+    /* MOBILE CALIBRATION */
     @media screen and (max-width: 600px) {
-        header { padding: 40px 20px; }
-        .name-brand { font-size: 0.85rem; letter-spacing: 2px; }
-        h1 { font-size: 1.6rem; }
-        
+        header { padding: 40px 15px; }
+        .name-brand { font-size: 0.8rem; letter-spacing: 2px; }
+        h1 { font-size: 1.5rem; }
         .hero-exhibit img { max-width: 220px; }
-        
-        .link-hub { flex-direction: column; align-items: center; gap: 20px; }
-        .archive-btn { width: 90%; max-width: 320px; padding: 35px 20px; }
-        .archive-btn span { font-size: 0.8rem; }
-        .archive-btn strong { font-size: 1rem; }
-
-        .section-title { font-size: 1.1rem; }
-        .body-text { font-size: 1rem; padding: 0 10px; }
+        .link-hub { flex-direction: column; align-items: center; padding: 40px 20px; }
+        .archive-btn { width: 100%; padding: 30px 20px; }
+        .body-text { text-align: left; font-size: 1rem; }
+        .footer-signal { font-size: 0.6rem; line-height: 1.8; }
     }
 </style>
 </head>
@@ -128,34 +108,30 @@
     </div>
 </div>
 
-
 <div class="link-hub">
-    <!-- NYT -->
     <a href="https://www.nytimes.com/paidpost/tiaa/on-the-right-track-retirement-ready.html" class="archive-btn">
         <span>Strategic Foundation</span>
         <strong>THE NYT FEATURE</strong>
     </a>
 
-    <!-- PCGS -->
     <a href="https://www.pcgs.com/news/colorized-coins" class="archive-btn">
         <span>Institutional Research</span>
         <strong>THE PCGS ANALYSIS</strong>
     </a>
 
-    <!-- iCollect -->
     <a href="https://www.icollecteverything.com/share/1157864/coin_Coins/main/title/" class="archive-btn">
-        <span>Full Asset Registry</span>
-        <strong>THE CATALOGUE</strong>
+        <span>Asset Registry</span>
+        <strong>THE MASTER CATALOGUE</strong>
     </a>
 </div>
-
 
 <div class="gateway">
     <a href="https://emaze.me/prettycoinz#*Home" class="back-link">← Return to Terminal Hub</a>
 </div>
 
-<footer>
-    <a href="https://cyber-chic.github.io/themoorearchive/releases" style="color: #888; text-decoration: none; transition: 0.3s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#888'">
+<footer class="terminal-footer">
+    <a href="https://cyber-chic.github.io/themoorearchive/releases" class="footer-signal">
+        <span class="footer-prompt">ACCESS LITERARY DISPATCHES //</span>
         © 2026 THE MOORE ARCHIVE // THE SIGNAL SURVIVES ON HONOR.
     </a>
 </footer>
