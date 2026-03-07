@@ -26,6 +26,42 @@
         -webkit-font-smoothing: antialiased;
     }
 
+.protocol-link {
+    color: var(--neon-blue);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 229, 255, 0.3);
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.protocol-link:hover {
+    border-bottom: 1px solid var(--neon-blue);
+    background: rgba(0, 229, 255, 0.05);
+}
+
+.highlight {
+    background: rgba(0, 229, 255, 0.1);
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+.artifact-link {
+    color: #fff; /* White text so it's easy on the eyes */
+    text-decoration: none;
+    border-bottom: 1px solid var(--neon-blue);
+    padding: 0 2px;
+    background: rgba(0, 229, 255, 0.05); /* Very soft blue tint */
+    transition: 0.4s ease;
+}
+
+.artifact-link:hover {
+    background: rgba(0, 229, 255, 0.15);
+    color: var(--neon-blue);
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.2);
+}
+
+
+
     /* HEADER */
     header { width: 100%; padding: 8vh 0; text-align: center; border-bottom: 1px solid #333; }
     .name-brand { font-family: 'Libre Baskerville', serif; font-size: 0.75rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 20px; display: inline-block; }
@@ -83,41 +119,45 @@
 <div class="container">
     <div class="section-title">🌹 The Sovereign Anchor</div>
     <div class="body-text">
-     <p class="body-text">
-        Backed by a disciplined investment philosophy featured in <strong>The New York Times</strong>, I have built a thriving portfolio that affords the freedom to pursue specialized research. <strong>Pretty Coinz</strong> is a numismatic study focused on artistic merit—evaluating whether aesthetic assets can retain their worth or surpass traditional benchmarks. To visualize this progress, I acquire a specific coin for every brokerage milestone reached, serving as <strong>Physical Milestone Trackers</strong> for my financial growth.
-    </p>
+        <strong>Pretty Coinz</strong> is a numismatic study inspired by PCGS analysis of artistic merit. This experiment evaluates the capacity for aesthetic assets to retain value or surpass traditional market benchmarks. Supported by a disciplined investment philosophy featured in <strong>The New York Times</strong>, I have established a thriving portfolio that affords the freedom to pursue specialized research. To visualize this trajectory, I acquire a specific coin for every brokerage milestone reached—serving as <strong>Physical Milestone Trackers</strong> for my private equity growth.
     </div>
 
     <div class="section-title">🌹 The Final Provenance</div>
     <div class="body-text">
-        <p class="body-text">
-    <p class="body-text">
-        This project concludes with the <strong>Beal Benchmark</strong>: an inquiry spanning over a decade aimed at independently surpassing the valuation of the official Beal Prize. The archive’s first chapter will close with the acquisition of the <strong>Beal Mountain Proof</strong>—the definitive artifact of analytical persistence.
-    </p>
+        This project concludes with the <strong>Beal Benchmark</strong>: an inquiry spanning over a decade aimed at independently surpassing the valuation of the official Beal Prize. The archive’s first chapter will close with the acquisition of the <a href="https://www.icollecteverything.com/db/custom/1157864/coin/95071/" target="_blank" class="protocol-link highlight">Beal Mountain Proof</a>—the definitive artifact of analytical persistence.
     </div>
 </div>
 
+
 <div class="link-hub">
+    <!-- NYT -->
     <a href="https://www.nytimes.com/paidpost/tiaa/on-the-right-track-retirement-ready.html" class="archive-btn">
-        <span>New York Times</span>
-        <strong>INVESTMENT PHILOSOPHY</strong>
+        <span>Strategic Foundation</span>
+        <strong>THE NYT FEATURE</strong>
     </a>
-    <a href="https://www.icollecteverything.com/db/custom/1157864/coin/95071/" class="archive-btn">
-        <span>Mission Objective</span>
-        <strong>THE BEAL PROOF REGISTRY</strong>
+
+    <!-- PCGS -->
+    <a href="https://www.pcgs.com/news/colorized-coins" class="archive-btn">
+        <span>Institutional Research</span>
+        <strong>THE PCGS ANALYSIS</strong>
     </a>
+
+    <!-- iCollect -->
     <a href="https://www.icollecteverything.com/share/1157864/coin_Coins/main/title/" class="archive-btn">
-        <span>The Moore Archive</span>
-        <strong>THE COIN CATALOGUE</strong>
+        <span>Full Asset Registry</span>
+        <strong>THE CATALOGUE</strong>
     </a>
 </div>
+
 
 <div class="gateway">
     <a href="https://emaze.me/prettycoinz#*Home" class="back-link">← Return to Terminal Hub</a>
 </div>
 
 <footer>
-    © 2026 THE MOORE ARCHIVE // THE SIGNAL SURVIVES ON HONOR.
+    <a href="https://cyber-chic.github.io/themoorearchive/releases" style="color: #888; text-decoration: none; transition: 0.3s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#888'">
+        © 2026 THE MOORE ARCHIVE // THE SIGNAL SURVIVES ON HONOR.
+    </a>
 </footer>
 
 </body>
