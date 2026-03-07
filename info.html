@@ -16,7 +16,7 @@
 
     body {
         background-color: var(--bg-black);
-        color: #d1d1d1;
+        color: #cccccc; /* UPGRADED: Friendly Eyes silver */
         font-family: 'Raleway', sans-serif;
         margin: 0;
         padding: 0;
@@ -24,19 +24,19 @@
         flex-direction: column;
         align-items: center;
         -webkit-font-smoothing: antialiased;
-        min-height: 100vh; /* Ensures content fills screen */
+        min-height: 100vh;
     }
 
     /* TYPOGRAPHY & LINKS */
     .protocol-link {
         color: var(--neon-blue);
         text-decoration: none;
-        border-bottom: 1px solid rgba(0, 229, 255, 0.3);
+        border-bottom: 1px solid rgba(0, 229, 255, 0.4);
         transition: 0.3s ease;
     }
 
     .highlight {
-        background: rgba(0, 229, 255, 0.1);
+        background: rgba(0, 229, 255, 0.15);
         padding: 2px 4px;
         border-radius: 2px;
     }
@@ -53,22 +53,22 @@
     /* CONTAINER CONTENT */
     .container { width: 100%; max-width: 850px; padding: 0 30px; }
     .section-title { font-family: 'Libre Baskerville', serif; font-size: 1.1rem; color: #fff; border-left: 2px solid var(--neon-blue); padding-left: 15px; margin: 50px 0 20px; }
-    .body-text { font-size: 1.05rem; color: #aaa; line-height: 1.8; margin-bottom: 25px; text-align: justify; }
+    .body-text { font-size: 1.05rem; color: #bbbbbb; line-height: 1.8; margin-bottom: 25px; text-align: justify; }
 
     /* LINK HUB */
     .link-hub { width: 100%; padding: 60px 20px; display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; }
-    .archive-btn { text-decoration: none; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #333; background: var(--glass); padding: 25px 30px; transition: 0.4s; min-width: 260px; }
+    .archive-btn { text-decoration: none; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #444; background: var(--glass); padding: 25px 30px; transition: 0.4s; min-width: 260px; }
     .archive-btn span { font-size: 0.65rem; color: var(--neon-blue); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
     .archive-btn strong { font-family: 'Libre Baskerville', serif; color: #fff; font-size: 0.85rem; letter-spacing: 1px; font-weight: 400; }
     .archive-btn:hover { border-color: var(--neon-blue); background: rgba(0, 229, 255, 0.05); }
 
     /* GATEWAY & FOOTER */
     .gateway { padding: 40px 0; text-align: center; width: 100%; }
-    .back-link { color: #555; text-decoration: none; font-size: 0.7rem; letter-spacing: 3px; text-transform: uppercase; transition: 0.3s; }
+    .back-link { color: #888888; text-decoration: none; font-size: 0.7rem; letter-spacing: 3px; text-transform: uppercase; transition: 0.3s; }
     .back-link:hover { color: #fff; }
 
     .terminal-footer { width: 100%; text-align: center; padding: 40px 20px; margin-top: auto; border-top: 1px solid #111; }
-    .footer-signal { color: #555; text-decoration: none; font-size: 0.65rem; letter-spacing: 2px; text-transform: uppercase; transition: 0.4s ease; display: inline-block; }
+    .footer-signal { color: #888888; text-decoration: none; font-size: 0.65rem; letter-spacing: 2px; text-transform: uppercase; transition: 0.4s ease; display: inline-block; }
     .footer-prompt { color: var(--neon-blue); font-weight: bold; }
     .footer-signal:hover { color: #fff; text-shadow: 0 0 8px var(--neon-blue); }
 
@@ -80,8 +80,8 @@
         .hero-exhibit img { max-width: 220px; }
         .link-hub { flex-direction: column; align-items: center; padding: 40px 20px; }
         .archive-btn { width: 100%; padding: 30px 20px; }
-        .body-text { text-align: left; font-size: 1rem; }
-        .footer-signal { font-size: 0.6rem; line-height: 1.8; }
+        .body-text { text-align: left; font-size: 1rem; color: #bbbbbb; }
+        .footer-signal { font-size: 0.6rem; line-height: 1.8; color: #888888; }
     }
 </style>
 </head>
@@ -126,7 +126,7 @@
 </div>
 
 <div class="gateway">
-    <a href="https://emaze.me/prettycoinz#*Home" class="back-link">← Return to Terminal Hub</a>
+    <a href="https://emaze.me/prettycoinz#*Home" class="back-link">← Return to Homepage</a>
 </div>
 
 <footer class="terminal-footer">
