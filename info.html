@@ -11,11 +11,9 @@
     :root {
         --neon-blue: #00e5ff;
         --bg-black: #050505;
-        --glass: rgba(255, 255, 255, 0.03);
     }
 
     body {
-        /* CHANGED: From flat black to a deep, radial 'midnight' glow */
         background: radial-gradient(circle at center, #0f1215 0%, #050505 100%);
         background-attachment: fixed;
         color: #d1d1d1; 
@@ -29,242 +27,22 @@
         min-height: 100vh;
     }
 
-    /* HEADER - High End Spacing */
-    header { width: 100%; padding: 8vh 0; text-align: center; border-bottom: 1px solid #1a1a1a; }
+    /* HEADER */
+    header { 
+        width: 100%; 
+        padding: 60px 0 40px; 
+        text-align: center; 
+        background: linear-gradient(to bottom, #000 0%, rgba(0, 229, 255, 0.03) 100%);
+        border-bottom: 1px solid rgba(0, 229, 255, 0.15); 
+    }
     .name-brand { font-family: 'Libre Baskerville', serif; font-size: 0.85rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 15px; display: inline-block; }
     h1 { font-family: 'Libre Baskerville', serif; font-size: clamp(1.6rem, 5vw, 2.2rem); color: #fff; margin: 0; letter-spacing: 2px; text-transform: uppercase; }
 
     /* HERO EXHIBIT */
-    .hero-exhibit { padding: 40px 20px; text-align: center; }
-    .hero-exhibit img { width: 100%; max-width: 360px; border-radius: 50%; filter: drop-shadow(0 0 12px rgba(0, 229, 255, 0.1)); border: 1px solid #1a1a1a; }
+    .hero-exhibit { padding: 60px 20px; text-align: center; }
+    .hero-exhibit img { width: 100%; max-width: 360px; border-radius: 50%; filter: drop-shadow(0 0 12px rgba(0, 229, 255, 0.15)); border: 1px solid rgba(255, 255, 255, 0.05); }
 
-    /* CONTAINER & THE NEON ANCHOR TITLES */
-    .container { width: 100%; max-width: 800px; padding: 0 30px; }
-
-    /* THE TITLES - "Dusty Neon" (Beauty without the Sting) */
-    .section-title { 
-        font-family: 'Libre Baskerville', serif; 
-        font-size: 1.25rem; 
-        /* CALIBRATED: Muted Cyan (Less "Electric", more "Glow") */
-        color: rgba(0, 229, 255, 0.85); 
-        font-weight: 700; 
-        border-left: 5px solid rgba(0, 229, 255, 0.6); 
-        padding: 15px 0 15px 25px; 
-        margin: 100px 0 45px; 
-        text-transform: uppercase;
-        letter-spacing: 5px; 
-        width: 100%; 
-        border-bottom: 1px solid rgba(0, 229, 255, 0.15); 
-        /* DEPTH: Subtle dark "cushion" behind the glow */
-        background: linear-gradient(to right, rgba(0, 229, 255, 0.08), transparent);
-        
-        /* HARMONIZED GLOW: Softer, wider, less "Sharp" */
-        text-shadow: 
-            0 0 10px rgba(0, 229, 255, 0.25), 
-            0 0 20px rgba(0, 229, 255, 0.1);
-    }
-
-    /* THE MASTERPIECE TYPOGRAPHY */
-    /* THE BODY - "Muted Slate" (Paper-feel, Zero Fatigue) */
-    .body-text { 
-        font-size: 1.35rem; 
-        /* KEEP the gorgeous 1st version color */
-        color: #b0c4de; 
-        line-height: 2.1; 
-        letter-spacing: 0.04em; 
-        margin-bottom: 65px; 
-        text-align: justify; 
-        font-style: italic; 
-        max-width: 780px; 
-        /* THE 'INK' FIX: Softens the edges so they don't 'vibrate' */
-        text-shadow: 0 0 1px rgba(0,0,0,0.5); 
-        /* SMOOTHING: Forces the browser to render the 'Archival' font clearly */
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
-
-
-    /* BONUS: Make the Bold parts "Glint" */
-    .body-text strong {
-        color: #ffffff;
-        font-weight: 700;
-        text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-    }
-
-
-    /* HYPERLINKS */
-    .protocol-link {
-        color: var(--neon-blue);
-        text-decoration: none;
-        border-bottom: 1px solid rgba(0, 229, 255, 0.4);
-        transition: 0.3s ease;
-    }
-    .highlight {
-        background: rgba(0, 229, 255, 0.15);
-        padding: 2px 4px;
-        border-radius: 2px;
-    }
-
-    /* THE HUB - SCALED & SHINING */
-    .link-hub { 
-        width: 100%; 
-        padding: 100px 20px; 
-        display: flex; 
-        justify-content: center; 
-        flex-wrap: wrap; 
-        gap: 30px; 
-        margin-top: 60px;
-        background: linear-gradient(to bottom, transparent, rgba(0, 229, 255, 0.02), #000);
-        border-top: 1px solid #1a1a1a;
-    }
-
-    .archive-btn { 
-        text-decoration: none; 
-        display: flex; 
-        flex-direction: column; 
-        align-items: center; 
-        justify-content: center; 
-        border: 1px solid rgba(0, 229, 255, 0.4); 
-        background: #000; 
-        padding: 40px 35px; 
-        transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1); 
-        min-width: 300px; 
-        position: relative; 
-        overflow: hidden;
-        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.9);
-    }
-
-    /* RESTORED: THE GLASS SHEEN */
-    .archive-btn::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(120deg, transparent, rgba(0, 229, 255, 0.2), transparent);
-        transition: 0.7s;
-    }
-    .archive-btn:hover::before { left: 100%; }
-
-    .archive-btn:hover { 
-        border-color: var(--neon-blue); 
-        background: #080808; 
-        box-shadow: 0 0 30px rgba(0, 229, 255, 0.25);
-        transform: translateY(-3px); 
-    }
-
-    .archive-btn span { 
-        font-size: 0.75rem; 
-        color: var(--neon-blue); 
-        letter-spacing: 4px; 
-        text-transform: uppercase; 
-        margin-bottom: 12px; 
-        position: relative; 
-        z-index: 1; 
-        opacity: 0.9;
-        text-shadow: 0 0 8px rgba(0, 229, 255, 0.4);
-    }
-    
-    .archive-btn strong { 
-        font-family: 'Libre Baskerville', serif; 
-        /* CHANGED: Pure white for maximum clarity on buttons */
-        color: #ffffff; 
-        font-size: 1rem; 
-        letter-spacing: 2px; 
-        font-weight: 400; 
-        position: relative; 
-        z-index: 1; 
-        text-shadow: 0 0 10px rgba(255,255,255,0.2);
-    }
-
-    /* THE GATEWAY */
-    .gateway { padding: 40px 0; text-align: center; width: 100%; background: #000; }
-    .back-link { color: #555; text-decoration: none; font-size: 0.75rem; letter-spacing: 4px; text-transform: uppercase; transition: 0.4s; }
-    .back-link:hover { color: var(--neon-blue); letter-spacing: 6px; }
-
-    /* FOOTER - Restored Neon Signal */
-    .terminal-footer { 
-        width: 100%; 
-        text-align: center; 
-        padding: 80px 20px; 
-        background: #000; 
-        border-top: 1px solid #111; 
-    }
-    .footer-signal { 
-        color: #777; 
-        text-decoration: none; 
-        font-size: 0.75rem; 
-        letter-spacing: 4px; 
-        text-transform: uppercase; 
-        transition: 0.4s ease; 
-        display: inline-block;
-        line-height: 2;
-    }
-    .footer-prompt { color: var(--neon-blue); font-weight: bold; }
-    .footer-signal:hover { color: #fff; text-shadow: 0 0 8px var(--neon-blue); }
-    .footer-signal:hover .footer-prompt { color: #c5a059; text-shadow: 0 0 10px rgba(197, 160, 89, 0.5); transition: 0.5s ease; }
-
-    /* MOBILE CALIBRATION */
-    @media screen and (max-width: 600px) {
-        header { padding: 40px 15px; }
-        .section-title { font-size: 1.1rem; letter-spacing: 2px; padding-left: 15px; }
-        .body-text { text-align: left; font-size: 1.15rem; }
-        .link-hub { flex-direction: column; align-items: center; padding: 60px 20px; }
-        .archive-btn { width: 100%; }
-        .footer-signal { font-size: 0.65rem; }
-    }
-</style>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Moore Archive | Pretty Coinz</title>
-<style>
-    /* GLOBAL RESET & VARIABLES */
-    * { box-sizing: border-box; }
-
-    :root {
-        --neon-blue: #00e5ff;
-        --bg-black: #050505;
-        --glass: rgba(255, 255, 255, 0.03);
-    }
-
-    body {
-        background-color: var(--bg-black);
-        color: #d1d1d1; 
-        font-family: 'Times New Roman', serif;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        -webkit-font-smoothing: antialiased;
-        min-height: 100vh;
-    }
-
-    /* HEADER */
-        header { 
-        width: 100%; 
-        /* RE-BALANCED: Less 'drop' at the top so it doesn't feel shifted down */
-        padding: 60px 0 40px; 
-        text-align: center; 
-        /* DEPTH: A slightly more noticeable gradient 'glow' behind the brand */
-        background: linear-gradient(to bottom, #000 0%, rgba(0, 229, 255, 0.03) 100%);
-        /* THE GLASS DIVIDE: Subtle, but clearly separates the sections */
-        border-bottom: 1px solid rgba(0, 229, 255, 0.15); 
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-    }
-
-    .name-brand { font-family: 'Libre Baskerville', serif; font-size: 0.85rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 15px; display: inline-block; }
-    h1 { font-family: 'Libre Baskerville', serif; font-size: clamp(1.6rem, 5vw, 2.2rem); color: #fff; margin: 0; letter-spacing: 2px; text-transform: uppercase; }
-
-    .hero-exhibit { padding: 40px 20px; text-align: center; }
-    .hero-exhibit img { width: 100%; max-width: 360px; border-radius: 50%; filter: drop-shadow(0 0 12px rgba(0, 229, 255, 0.1)); border: 1px solid #1a1a1a; }
-
+    /* CONTAINER */
     .container { width: 100%; max-width: 800px; padding: 0 30px; }
 
     .section-title { 
@@ -287,18 +65,18 @@
         font-size: 1.35rem; 
         color: #b0c4de; 
         line-height: 2.1; 
-        letter-spacing: 0.03em; 
+        letter-spacing: 0.04em; 
         margin-bottom: 65px; 
         text-align: justify; 
         font-style: italic; 
-        max-width: 780px; 
-        text-shadow: 0 0 1px rgba(255,255,255,0.1); 
+        text-shadow: 0 0 1px rgba(0,0,0,0.5); 
     }
+    .body-text strong { color: #ffffff; font-weight: 700; text-shadow: 0 0 10px rgba(255, 255, 255, 0.2); }
 
     .protocol-link { color: var(--neon-blue); text-decoration: none; border-bottom: 1px solid rgba(0, 229, 255, 0.4); transition: 0.3s ease; }
     .highlight { background: rgba(0, 229, 255, 0.15); padding: 2px 4px; border-radius: 2px; }
 
-    /* --- UPDATED: THE HUB - Liquid Neon Sheen Background --- */
+    /* THE HUB - Liquid Neon Sheen */
     .link-hub { 
         width: 100%; 
         padding: 120px 20px; 
@@ -354,71 +132,33 @@
         transform: translateY(-3px); 
     }
 
-    .archive-btn span { font-size: 0.75rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 12px; position: relative; z-index: 1; opacity: 0.9; text-shadow: 0 0 8px rgba(0, 229, 255, 0.4); }
-    .archive-btn strong { font-family: 'Libre Baskerville', serif; color: #fff; font-size: 1rem; letter-spacing: 2px; font-weight: 400; position: relative; z-index: 1; }
+    .archive-btn span { font-size: 0.75rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 12px; position: relative; z-index: 1; text-shadow: 0 0 8px rgba(0, 229, 255, 0.4); }
+    .archive-btn strong { font-family: 'Libre Baskerville', serif; color: #ffffff; font-size: 1rem; letter-spacing: 2px; font-weight: 400; position: relative; z-index: 1; text-shadow: 0 0 10px rgba(255,255,255,0.2); }
 
-    /* --- UPDATED: THE GATEWAY --- */
     .gateway { padding: 60px 0; text-align: center; width: 100%; background: #000; }
     .back-link { color: #555; text-decoration: none; font-size: 0.8rem; letter-spacing: 5px; text-transform: uppercase; transition: 0.4s; }
     .back-link:hover { color: var(--neon-blue); text-shadow: 0 0 10px var(--neon-blue); }
 
-    /* --- UPDATED: FOOTER --- */
     .terminal-footer { width: 100%; text-align: center; padding: 80px 20px; background: #000; border-top: 1px solid #111; }
     .footer-signal { color: #777; text-decoration: none; font-size: 0.75rem; letter-spacing: 4px; text-transform: uppercase; transition: 0.4s ease; display: inline-block; line-height: 2; }
     .footer-prompt { color: var(--neon-blue); font-weight: bold; }
     .footer-signal:hover { color: #fff; text-shadow: 0 0 8px var(--neon-blue); }
     .footer-signal:hover .footer-prompt { color: #c5a059; text-shadow: 0 0 10px rgba(197, 160, 89, 0.5); }
 
-    /* MOBILE CALIBRATION - Optimized for 2026 Mobile Screens */
+    /* MOBILE CALIBRATION */
     @media screen and (max-width: 768px) {
-        /* HEADER: Tighter for mobile 'fold' */
         header { padding: 40px 15px 30px; }
         h1 { font-size: 1.4rem; letter-spacing: 1px; }
-
-        /* THE GAP: Reduced dead space between Coin and Text */
         .hero-exhibit { padding: 30px 20px; }
         .hero-exhibit img { max-width: 280px; }
-        
-        /* THE DIVIDER: Scaled down for smaller screens */
-        .hero-exhibit + div { padding: 10px 0 !important; }
-        .hero-exhibit + div div { width: 180px !important; }
-
-        /* THE TEXT: Comfort-read scaling */
-        .section-title { 
-            font-size: 1.05rem; 
-            letter-spacing: 3px; 
-            padding-left: 15px; 
-            margin: 50px 0 25px; 
-        }
-        .body-text { 
-            text-align: left; 
-            font-size: 1.1rem; 
-            line-height: 1.8; 
-            margin-bottom: 40px; 
-        }
-
-        /* LINK HUB: Stacked with less 'bulk' */
-        .link-hub { 
-            flex-direction: column; 
-            align-items: center; 
-            padding: 50px 20px; 
-            gap: 20px;
-        }
+        .section-title { font-size: 0.95rem; letter-spacing: 2px; white-space: nowrap; margin: 50px 0 25px; padding-left: 15px; }
+        .body-text { text-align: left; font-size: 1.1rem; line-height: 1.8; margin-bottom: 40px; }
+        .link-hub { flex-direction: column; align-items: center; padding: 50px 20px; gap: 20px; }
         .archive-btn { width: 100%; min-width: unset; padding: 30px 20px; }
-
-        /* FOOTER: The 'One-Line' fix */
         .terminal-footer { padding: 60px 10px; }
-        .footer-signal { 
-            font-size: 0.6rem; /* Scaled down to prevent wrapping */
-            letter-spacing: 2px;
-            white-space: nowrap; /* Forces the single line */
-            display: block;
-            overflow: hidden;
-            text-overflow: ellipsis; /* Graceful fade if screen is tiny */
-        }
+        .footer-signal { font-size: 0.6rem; letter-spacing: 2px; white-space: nowrap; display: block; overflow: hidden; text-overflow: ellipsis; }
         .footer-prompt { font-size: 0.6rem; }
     }
-
 </style>
 </head>
 <body>
@@ -432,20 +172,10 @@
     <img src="https://github.com/user-attachments/assets/b3f381e9-781f-47f4-81b9-28ef1dea6f9e" alt="Rose Coin">
 </section>
 
-<!-- The Frosted Platinum Divider -->
+<!-- THE PLATINUM DIVIDER -->
 <div style="width: 100%; display: flex; justify-content: center; padding: 60px 0;">
-    <div style="
-        width: 320px; 
-        height: 1px; 
-        /* GRADIENT: Fades from transparent to a soft 'Platinum Blue' back to transparent */
-        background: linear-gradient(to right, transparent, #b0c4de 50%, transparent);
-        opacity: 0.3;
-        /* SUBTLE GLOW: Silver instead of Neon */
-        box-shadow: 0 0 12px rgba(176, 196, 222, 0.2);
-    "></div>
+    <div style="width: 320px; height: 1px; background: linear-gradient(to right, transparent, #b0c4de 50%, transparent); opacity: 0.3; box-shadow: 0 0 12px rgba(176, 196, 222, 0.2);"></div>
 </div>
-
-
 
 <div class="container">
     <div class="section-title">🌹 The Sovereign Anchor</div>
@@ -455,7 +185,7 @@
 
     <div class="section-title">🌹 The Final Provenance</div>
     <div class="body-text">
-        This project concludes with the <strong>Beal Benchmark</strong>: an inquiry spanning over a decade aimed at independently surpassing the valuation of the official Beal Prize. The archive’s first chapter will close with the acquisition of the <a href="https://www.icollecteverything.com/db/custom/1157864/coin/95071/" target="_blank" class="protocol-link highlight">Beal Mountain Proof</a>—the definitive artifact of analytical persistence.
+        This project concludes with the <strong>Beal Benchmark</strong>: an inquiry spanning over a decade aimed at independently surpassing the valuation of the official Beal Prize. The archive’s first chapter will close with the acquisition of the <a href="https://icollecteverything.com" target="_blank" class="protocol-link highlight">Beal Mountain Proof</a>—the definitive artifact of analytical persistence.
     </div>
 </div>
 
