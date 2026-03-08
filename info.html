@@ -369,13 +369,56 @@
     .footer-signal:hover { color: #fff; text-shadow: 0 0 8px var(--neon-blue); }
     .footer-signal:hover .footer-prompt { color: #c5a059; text-shadow: 0 0 10px rgba(197, 160, 89, 0.5); }
 
-    @media screen and (max-width: 600px) {
-        header { padding: 40px 15px; }
-        .section-title { font-size: 1.1rem; letter-spacing: 2px; padding-left: 15px; }
-        .body-text { text-align: left; font-size: 1.15rem; }
-        .link-hub { flex-direction: column; align-items: center; padding: 60px 20px; }
-        .archive-btn { width: 100%; }
+    /* MOBILE CALIBRATION - Optimized for 2026 Mobile Screens */
+    @media screen and (max-width: 768px) {
+        /* HEADER: Tighter for mobile 'fold' */
+        header { padding: 40px 15px 30px; }
+        h1 { font-size: 1.4rem; letter-spacing: 1px; }
+
+        /* THE GAP: Reduced dead space between Coin and Text */
+        .hero-exhibit { padding: 30px 20px; }
+        .hero-exhibit img { max-width: 280px; }
+        
+        /* THE DIVIDER: Scaled down for smaller screens */
+        .hero-exhibit + div { padding: 10px 0 !important; }
+        .hero-exhibit + div div { width: 180px !important; }
+
+        /* THE TEXT: Comfort-read scaling */
+        .section-title { 
+            font-size: 1.05rem; 
+            letter-spacing: 3px; 
+            padding-left: 15px; 
+            margin: 50px 0 25px; 
+        }
+        .body-text { 
+            text-align: left; 
+            font-size: 1.1rem; 
+            line-height: 1.8; 
+            margin-bottom: 40px; 
+        }
+
+        /* LINK HUB: Stacked with less 'bulk' */
+        .link-hub { 
+            flex-direction: column; 
+            align-items: center; 
+            padding: 50px 20px; 
+            gap: 20px;
+        }
+        .archive-btn { width: 100%; min-width: unset; padding: 30px 20px; }
+
+        /* FOOTER: The 'One-Line' fix */
+        .terminal-footer { padding: 60px 10px; }
+        .footer-signal { 
+            font-size: 0.6rem; /* Scaled down to prevent wrapping */
+            letter-spacing: 2px;
+            white-space: nowrap; /* Forces the single line */
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis; /* Graceful fade if screen is tiny */
+        }
+        .footer-prompt { font-size: 0.6rem; }
     }
+
 </style>
 </head>
 <body>
