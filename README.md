@@ -6,7 +6,7 @@
 ### [ 🛰️ FEATURED ARTIFACT: THE ROSE ]
 **Current Status: 🟢 ACTIVE SIGNAL**
 
-This artifact represents the core of the **Beauty Index**. It is a study in high-contrast persistence—where specialized artistry meets traditional currency. This is not about utility; it is about the "Aesthetic Alpha" found in the physical world.
+Rose artifacts represent the core of the **Beauty Index**. It is a study in high-contrast persistence—where specialized artistry meets traditional currency. This is not about utility; it is about the "Aesthetic Alpha" found in the physical world.
 
 | VIEW: THE ROSE |
 | :---: |
@@ -16,11 +16,11 @@ This artifact represents the core of the **Beauty Index**. It is a study in high
 ---
 
 ### [ 📁 ARCHIVAL LOGS ]
-*   **📡 [ GALLERY_HIGHLIGHT ](https://cyber-chic.github.io/prettycoinz/)**
+*   **📡 [ GALLERY_HIGHLIGHT ](https://cyber-chic.github.io/prettycoinz/info)**
     *   *Series: Aesthetic Inquiry*
     *   *Unit: The Moore Signal*
     *   *Observation: High-contrast petal/background synchronization.*
-*   **🧪 [ THE COLLECTION ](https://cyber-chic.github.io/prettycoinz/info)**
+*   **🧪 [ THE COLLECTION ](https://emaze.me/prettycoinz)**
     *   *Full Asset Inventory & Beal Benchmark Tracker*
 
 ---
