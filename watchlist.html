@@ -183,13 +183,67 @@
             color: #000;
         }
 
-        /* --- RESPONSIVE --- */
-        @media (max-width: 1100px) {
-            .sidebar-left { width: 100%; height: auto; position: relative; border-right: none; border-bottom: 1px solid var(--border); padding: 40px; }
-            .main-feed { margin-left: 0; padding: 60px 40px; }
-            .coin-entry { grid-template-columns: 1fr; gap: 40px; }
-            .coin-info h2 { font-size: 2.2rem; }
+    /* --- MOBILE POLISH --- */
+    @media (max-width: 1100px) {
+        body { 
+            display: block; /* Removes the side-by-side flex for the whole page */
         }
+
+        .sidebar-left { 
+            width: 100%; 
+            height: auto; 
+            position: relative; 
+            border-right: none; 
+            border-bottom: 1px solid var(--border); 
+            padding: 60px 20px 40px; 
+            text-align: center;
+            display: block;
+        }
+
+        .brand h1 { font-size: 1.8rem; }
+        
+        .nav-menu { 
+            margin: 30px 0; 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 15px; 
+        }
+        .nav-menu li { margin-bottom: 0; }
+        .nav-menu a { font-size: 0.65rem; }
+
+        .main-feed { 
+            margin-left: 0; 
+            padding: 40px 20px; 
+        }
+
+        .section-label { 
+            text-align: center; 
+            margin-bottom: 40px; 
+        }
+
+        .gallery { gap: 80px; }
+
+        .coin-entry { 
+            grid-template-columns: 1fr; /* Stacks image on top of text */
+            gap: 30px; 
+        }
+
+        .coin-info { 
+            text-align: center; 
+        }
+
+        .coin-info h2 { font-size: 2rem; }
+
+        .coin-description { 
+            border-left: none; 
+            border-top: 1px solid #222; 
+            padding-left: 0; 
+            padding-top: 20px; 
+        }
+
+        .footer-note { margin-top: 40px; }
+    }
     </style>
 </head>
 <body>
