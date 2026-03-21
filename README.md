@@ -28,7 +28,7 @@ Rose artifacts represent the core of the **Beauty Index**. It is a study in high
 ### [ 🛰️ SYNTHETIC CO-PILOT ]
 **Technical Architecture:** This repository and the broader **Moore Signal** ecosystem were manifest through an iterative rhythmic exchange between **Angela N. Moore** and the **Gemini Neural Models**.
 
-The architecture balances technical data (NASA/Beal) with the curator’s personal aesthetic vision—blending AI precision with the human eye for "Specialized Numismatics."
+The architecture balances technical data with the curator’s personal aesthetic vision—blending AI precision with the human eye for "Specialized Numismatics."
 
 ---
 
