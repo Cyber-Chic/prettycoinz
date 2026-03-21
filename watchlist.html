@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANGELA N. MOORE // PRETTY COINZ</title>
+    <!-- Fixed Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg: #030303;
+            --card-bg: #080808;
+            --accent: #ffffff;
+            --text-muted: #666; /* Slightly lighter for readability */
+            --gold: #c5a059; 
+            --border: #1a1a1a;
+        }
+
+        * { box-sizing: border-box; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        body {
+            background-color: var(--bg);
+            color: var(--accent);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- LEFT NAVIGATION --- */
+        .sidebar-left {
+            width: 350px;
+            padding: 80px 40px;
+            border-right: 1px solid var(--border);
+            height: 100vh;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            z-index: 10;
+            background: var(--bg);
+        }
+
+        .brand h1 { 
+            font-family: 'Bodoni Moda', serif; 
+            font-weight: 700; 
+            letter-spacing: -1px; 
+            font-size: 2.2rem; 
+            line-height: 0.9;
+            margin: 0 0 20px 0;
+        }
+
+        .brand p { 
+            font-size: 0.65rem; 
+            letter-spacing: 5px; 
+            text-transform: uppercase; 
+            color: var(--gold);
+            font-weight: 600;
+        }
+
+        .nav-menu { list-style: none; padding: 0; margin: 60px 0; }
+        .nav-menu li { margin-bottom: 20px; }
+        .nav-menu a { 
+            text-decoration: none; 
+            color: #888; 
+            font-size: 0.75rem; 
+            letter-spacing: 2px; 
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+        .nav-menu a:hover { color: #fff; padding-left: 10px; }
+
+        /* --- MAIN FEED --- */
+        .main-feed {
+            margin-left: 350px; 
+            padding: 80px 100px;
+            flex-grow: 1;
+            max-width: 1300px;
+        }
+
+        .section-label {
+            font-size: 0.6rem;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 60px;
+            display: block;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 120px;
+        }
+
+        .coin-entry {
+            display: grid;
+            grid-template-columns: 1.1fr 1fr;
+            gap: 80px;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+            animation: fadeIn 1.2s ease forwards;
+        }
+
+        /* --- IMAGE FRAME (BRIGHT BY DEFAULT) --- */
+        .coin-frame {
+            background: #000;
+            aspect-ratio: 4/5;
+            overflow: hidden;
+            border: 1px solid #1a1a1a;
+            position: relative;
+            padding: 30px;
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .coin-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            /* Removed grayscale and brightness filters */
+            filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+            transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        /* Subtle Hover Enhancements */
+        .coin-entry:hover .coin-frame { 
+            border-color: var(--gold);
+            box-shadow: 0 0 30px rgba(197, 160, 89, 0.1); /* Very subtle gold glow */
+        }
+        .coin-entry:hover img { 
+            transform: scale(1.06); 
+        }
+
+        /* --- TYPOGRAPHY --- */
+        .coin-info h2 {
+            font-family: 'Bodoni Moda', serif;
+            font-size: 2.8rem;
+            margin: 0 0 15px 0;
+            font-weight: 400;
+            line-height: 1.1;
+        }
+
+        .coin-tag {
+            font-size: 0.65rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 25px;
+            display: block;
+            font-weight: 600;
+        }
+
+        .coin-description {
+            font-size: 0.95rem;
+            color: #aaa;
+            line-height: 1.8;
+            margin-bottom: 35px;
+            border-left: 1px solid #222;
+            padding-left: 25px;
+        }
+
+        .price-status {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #fff;
+            border: 1px solid #333;
+            display: inline-block;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+        
+        .coin-entry:hover .price-status {
+            background: #fff;
+            color: #000;
+        }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 1100px) {
+            .sidebar-left { width: 100%; height: auto; position: relative; border-right: none; border-bottom: 1px solid var(--border); padding: 40px; }
+            .main-feed { margin-left: 0; padding: 60px 40px; }
+            .coin-entry { grid-template-columns: 1fr; gap: 40px; }
+            .coin-info h2 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <aside class="sidebar-left">
+        <div class="brand">
+            <h1>Angela N.<br>Moore</h1>
+            <p>Independent Archivist</p>
+        </div>
+
+        <ul class="nav-menu">
+            <li><a href="https://www.icollecteverything.com/share/1157864/coin_Coins/main/title/?n=Yhe%20Pretty%20Coinz%20Collection">// COIN CURATION</a></li>
+            <li><a href="https://www.icollecteverything.com/share/1157864/coin_Coins/wishlist/title/">// ON THE RADAR</a></li>
+            <li><a href="https://emaze.me/prettycoinz#*Home">// RETURN TO BASE</a></li>
+        </ul>
+
+        <div class="footer-note">
+            <p style="font-size: 0.5rem; color: var(--text-muted); letter-spacing: 1px; line-height: 2;">
+                PRETTY COINZ IS A TRANSFORMATIVE STUDY OF NUMISMATIC AESTHETICS. © 2026
+            </p>
+        </div>
+    </aside>
+
+    <main class="main-feed">
+        <span class="section-label">SELECTED FEATURES</span>
+
+        <div class="gallery">
+            <!-- EXHIBIT 01 -->
+            <a href="https://www.icollecteverything.com/db/custom/1157864/coin/106510/" class="coin-entry">
+                <div class="coin-frame">
+                    <img src="img/vol1.jpg" alt="Opal Proof Coin">
+                </div>
+                <div class="coin-info">
+                    <span class="coin-tag">ISSUE 01 // AUSTRALIA</span>
+                    <h2>Wonders of Australia</h2>
+                    <p class="coin-description">
+                        This artifact represents a pivot in market sentiment where visual appeal outweighs traditional mintage figures. This numismatic asset was selected for...
+                    </p>
+                    <div class="price-status">STARTING EST. $300 - $450 🔍</div>
+                </div>
+            </a>
+
+            <!-- EXHIBIT 02 -->
+            <a href="https://cyber-chic.github.io/prettycoinz/info" class="coin-entry">
+                <div class="coin-frame" style="border-style: dashed;">
+		            <img src="img/Anchor.jpg" alt="Beal Mountain Proof">
+                </div>
+                <div class="coin-info">
+                    <span class="coin-tag">NAVIGATION</span>
+                    <h2>Return to Main</h2>
+                    <p class="coin-description">
+                        Exit the archive and return to the primary index. Read full collection aims and scopes.
+                    </p>
+                    <div class="price-status">BACK TO OVERVIEW</div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+</body>
+</html>
