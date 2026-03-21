@@ -242,6 +242,26 @@
             padding-top: 20px; 
         }
 
+            /* Links are now a vertical column on mobile */
+            .nav-menu { 
+                margin: 40px 0; 
+                display: flex; 
+                flex-direction: column; /* This creates the column order */
+                align-items: center; 
+                gap: 15px; 
+            }
+            .nav-menu li { margin-bottom: 0; }
+
+            .main-feed { margin-left: 0; padding: 60px 20px; }
+            .section-label { text-align: center; margin-bottom: 40px; }
+            .gallery { gap: 80px; }
+            .coin-entry { grid-template-columns: 1fr; gap: 30px; }
+            .coin-info { text-align: center; }
+            .coin-info h2 { font-size: 2.2rem; }
+            .coin-description { border-left: none; border-top: 1px solid #222; padding: 20px 0 0 0; }
+            .footer-note { margin-top: 40px; }
+        }
+		
         .footer-note { margin-top: 40px; }
     }
     </style>
