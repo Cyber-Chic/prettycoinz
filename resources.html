@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Moore Archive | Specialized Resources</title>
+<style>
+    /* GLOBAL RESET & VARIABLES */
+    * { box-sizing: border-box; }
+
+    :root {
+        --neon-blue: #00e5ff;
+        --bg-black: #050505;
+        --gold: #c5a059;
+    }
+
+    body {
+        background: radial-gradient(circle at center, #0f1215 0%, #050505 100%);
+        background-attachment: fixed;
+        color: #d1d1d1; 
+        font-family: 'Times New Roman', serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    header { 
+        width: 100%; 
+        padding: 60px 0 40px; 
+        text-align: center; 
+        background: linear-gradient(to bottom, #000 0%, rgba(0, 229, 255, 0.03) 100%);
+        border-bottom: 1px solid rgba(0, 229, 255, 0.15); 
+    }
+    .name-brand { font-family: 'Libre Baskerville', serif; font-size: 0.85rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 15px; display: inline-block; }
+    h1 { font-family: 'Libre Baskerville', serif; font-size: clamp(1.6rem, 5vw, 2.2rem); color: #fff; margin: 0; letter-spacing: 2px; text-transform: uppercase; }
+
+    .container { width: 100%; max-width: 1000px; padding: 0 30px; }
+
+    .section-title { 
+        font-family: 'Libre Baskerville', serif; 
+        font-size: 1.25rem; 
+        color: rgba(0, 229, 255, 0.85); 
+        border-left: 5px solid rgba(0, 229, 255, 0.6); 
+        padding: 15px 25px; 
+        margin: 80px 0 45px; 
+        text-transform: uppercase;
+        letter-spacing: 5px; 
+        background: linear-gradient(to right, rgba(0, 229, 255, 0.08), transparent);
+        text-shadow: 0 0 10px rgba(0, 229, 255, 0.25);
+    }
+
+    /* THE SHIMMERING GRID */
+    .resource-grid { 
+        display: grid; 
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+
+    .resource-card { 
+        text-decoration: none; 
+        display: flex; 
+        flex-direction: column; 
+        border: 1px solid rgba(0, 229, 255, 0.2); 
+        /* The Liquid Neon Background */
+        background: linear-gradient(135deg, #000 30%, rgba(0, 229, 255, 0.05) 50%, #000 70%);
+        background-size: 200% 200%;
+        animation: signal-shimmer 12s ease-in-out infinite;
+        padding: 40px; 
+        transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1); 
+        position: relative;
+        overflow: hidden;
+    }
+
+    @keyframes signal-shimmer {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    .resource-card:hover { 
+        border-color: var(--neon-blue); 
+        transform: translateY(-5px); 
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 229, 255, 0.1);
+    }
+
+    .tag { font-family: 'Courier New', monospace; font-size: 0.65rem; color: var(--gold); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 15px; display: block; }
+    .resource-card strong { font-family: 'Libre Baskerville', serif; color: #ffffff; font-size: 1.1rem; letter-spacing: 1px; margin-bottom: 10px; display: block; text-shadow: 0 0 8px rgba(255,255,255,0.1); }
+    .resource-card p { font-size: 0.9rem; color: #888; line-height: 1.6; margin: 0; font-style: italic; }
+
+    .gateway { padding: 80px 0; text-align: center; width: 100%; border-top: 1px solid rgba(255,255,255,0.05); }
+    .back-link { color: #555; text-decoration: none; font-size: 0.8rem; letter-spacing: 5px; text-transform: uppercase; transition: 0.4s; }
+    .back-link:hover { color: var(--neon-blue); text-shadow: 0 0 10px var(--neon-blue); }
+
+    @media screen and (max-width: 768px) {
+        .resource-grid { grid-template-columns: 1fr; }
+        .section-title { font-size: 1rem; letter-spacing: 2px; }
+    }
+</style>
+</head>
+<body>
+
+    <header>
+        <div class="name-brand">The Moore Archive // Technical Intelligence</div>
+        <h1>Specialized Resources</h1>
+    </header>
+
+    <div class="container">
+        <div class="section-title">Aesthetic Numismatics</div>
+        <div class="resource-grid">
+            <a href="https://www.pcgs.com/news/colorized-coins" target="_blank" class="resource-card">
+                <span class="tag">[FOUNDATIONAL]</span>
+                <strong>PCGS: The Art of the Coin</strong>
+                <p>The global authority on coin grading. This serves as the institutional baseline for my evaluation of "Aesthetic Alpha" benchmarks.</p>
+            </a>
+
+            <a href="https://www.coinworld.com/news/world-coins" target="_blank" class="resource-card">
+                <span class="tag">[VISUAL ARCHIVE]</span>
+                <strong>Coin World Digital</strong>
+                <p>The definitive record of the most visually stunning specimens in the world market and the primary source material for my research.</p>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=GktPpNMZBuk" target="_blank" class="resource-card">
+                <span class="tag">[SPECIMEN ANALYSIS]</span>
+                <strong>Silver Seeker: Epic Coins</strong>
+                <p>A high-speed visual breakdown of legendary specimens that inspired the "Series T" aesthetic standards of the Archive.</p>
+            </a>
+
+	<!-- THE 4TH BOX: YOUR PUBLICATION -->
+	    <a href="https://cyber-chic.github.io/prettycoinz/watchlist" class="resource-card" style="border-color: var(--neon-blue); background: linear-gradient(135deg, #000 30%, rgba(0, 229, 255, 0.1) 50%, #000 70%);">
+    		<span class="tag" style="color: #fff; background: var(--neon-blue); color: #000; padding: 2px 5px;">[PRIMARY SOURCE]</span>
+    		<strong>Digital Trade Publication</strong>
+    		<p>The Official Review: My independent publication. This is where I conduct specialized inquiries into specimens against The Beauty Index.</p>
+	    </a>
+        </div>
+
+        <div class="section-title">The Positive Zero Principle</div>
+        <div class="resource-grid">
+            <a href="https://bensbells.org/coins/" target="_blank" class="resource-card">
+                <span class="tag">[THE PROTOCOL]</span>
+                <strong>Ben’s Bells: Kindness Coins</strong>
+                <p>Physical tokens of the "Cycle of Honor." Tokens the archive secures and quietly releases to reward acts of kindness.</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="gateway">
+        <a href="https://cyber-chic.github.io/prettycoinz/info" class="back-link">← Return to Main Archive</a>
+    </div>
+
+<footer style="padding: 80px 20px; text-align: center; border-top: 1px solid rgba(0, 229, 255, 0.2); background: #000; position: relative; overflow: hidden;">
+    <!-- THE RADIANT PULSE -->
+    <p class="investigator-signal" style="
+        font-family: 'Libre Baskerville', serif; 
+        font-size: 0.75rem; 
+        letter-spacing: 5px; 
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        color: #fff;
+        animation: neon-pulse 3s ease-in-out infinite;
+    ">
+        Principal Investigator: Angela N. Moore
+    </p>
+
+<a href="https://github.com/cyber-chic" class="footer-signal" style="
+    text-decoration: none; 
+    color: #777; 
+    font-size: 0.65rem; 
+    letter-spacing: 4px; 
+    text-transform: uppercase; 
+    transition: 0.4s;
+    display: inline-block;
+">
+    <span style="color: var(--neon-blue); font-weight: bold; text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);">
+        [ID_TMA-LOG] // ACCESS MASTER GATE //
+    </span> 
+    THE SIGNAL SURVIVES ON HONOR.
+</a>
+
+
+    <style>
+        @keyframes neon-pulse {
+            0%, 100% { 
+                color: #fff; 
+                text-shadow: 0 0 10px rgba(0, 229, 255, 0.3), 0 0 20px rgba(0, 229, 255, 0.1); 
+            }
+            50% { 
+                color: var(--neon-blue); 
+                text-shadow: 0 0 20px rgba(0, 229, 255, 0.8), 0 0 40px rgba(0, 229, 255, 0.4); 
+            }
+        }
+        
+        .footer-signal:hover {
+            color: #fff !important;
+            text-shadow: 0 0 15px var(--neon-blue);
+        }
+    </style>
+</footer>
+
+</body>
+</html>
