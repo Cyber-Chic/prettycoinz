@@ -40,7 +40,16 @@
 
     /* HERO EXHIBIT */
     .hero-exhibit { padding: 60px 20px; text-align: center; }
-    .hero-exhibit img { width: 100%; max-width: 360px; border-radius: 50%; filter: drop-shadow(0 0 12px rgba(0, 229, 255, 0.15)); border: 1px solid rgba(255, 255, 255, 0.05); }
+    .hero-exhibit img {
+    width: 100%;
+    max-width: 420px; /* Slightly larger for the Anchor */
+    border-radius: 50%;
+    /* THE BUFFER: This stops the "dizzy" feeling by softening the edges */
+    filter: drop-shadow(0 0 30px rgba(197, 160, 89, 0.2)); 
+    border: 1px solid rgba(197, 160, 89, 0.1);
+    padding: 20px; /* Internal breathing room */
+    background: radial-gradient(circle, rgba(197,160,89,0.05) 0%, transparent 70%);
+}
 
     /* CONTAINER */
     .container { width: 100%; max-width: 800px; padding: 0 30px; }
