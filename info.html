@@ -37,19 +37,94 @@
     }
     .name-brand { font-family: 'Libre Baskerville', serif; font-size: 0.85rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 15px; display: inline-block; }
     h1 { font-family: 'Libre Baskerville', serif; font-size: clamp(1.6rem, 5vw, 2.2rem); color: #fff; margin: 0; letter-spacing: 2px; text-transform: uppercase; }
+/* --- CLEANED UP HERO SECTION --- */
 
-    /* HERO EXHIBIT */
-    .hero-exhibit { padding: 60px 20px; text-align: center; }
-    .hero-exhibit img {
-    width: 100%;
-    max-width: 420px; /* Slightly larger for the Anchor */
-    border-radius: 50%;
-    /* THE BUFFER: This stops the "dizzy" feeling by softening the edges */
-    filter: drop-shadow(0 0 30px rgba(197, 160, 89, 0.2)); 
-    border: 1px solid rgba(197, 160, 89, 0.1);
-    padding: 20px; /* Internal breathing room */
-    background: radial-gradient(circle, rgba(197,160,89,0.05) 0%, transparent 70%);
+header { 
+    padding: 80px 0 60px; 
+    background: #000; /* Pure black for maximum contrast */
+    text-align: center;
 }
+
+h1 { 
+    font-family: 'Libre Baskerville', serif; 
+    font-size: clamp(1.4rem, 4vw, 1.8rem); 
+    letter-spacing: 6px; 
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 20; 
+    font-weight: 500; /* Subtle weight increase */
+    /* THE INVISIBLE WEIGHT: A sharp, 1px offset with zero blur */
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8); 
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 7px; /* Increased slightly to balance the new "weight" */
+}
+
+.name-brand { 
+    font-size: 0.7rem; 
+    letter-spacing: 8px; 
+    color: var(--neon-blue); /* Ensure this variable is defined in your :root */
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 20;
+    font-weight: 700;
+    letter-spacing: 9px;
+    /* Adds a "glow" weight rather than "ink" weight */
+    text-shadow: 0 0 1px rgba(0, 229, 255, 0.4); 
+
+}
+
+.hero-exhibit {
+    margin-top: 40px; 
+    padding: 60px 20px; 
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.hero-exhibit img {
+    width: 100%;
+    max-width: 420px; 
+    border-radius: 50%;
+    border: 1px solid rgba(0, 229, 255, 0.2); /* Matching the blue glow */
+    padding: 20px; 
+    
+    /* THE GLOW: Combined your gold and blue into one cohesive "Scientific" feel */
+    background: radial-gradient(circle, rgba(0, 229, 255, 0.05) 0%, transparent 70%);
+    box-shadow: 0 0 50px rgba(0, 229, 255, 0.2);
+    
+    /* ADDING THE PULSE ANIMATION */
+    animation: anchorPulse 4s infinite ease-in-out;
+    transition: all 0.5s ease;
+    max-width: 400px;
+    border-radius: 50%;
+    
+    /* THE SOFT-FOCUS BUFFER: 40px of diffusion reduces eye-strain */
+    filter: drop-shadow(0 0 40px rgba(197, 160, 89, 0.15));
+    
+    /* ADD A SOFT RADIAL GRADIENT BEHIND THE COIN */
+    background: radial-gradient(circle, rgba(197, 160, 89, 0.05) 0%, transparent 75%);
+    padding: 30px;
+}
+
+.hero-exhibit img:hover {
+    transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) scale(1.05);
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.9));
+    box-shadow: 0 0 70px rgba(0, 229, 255, 0.5); /* Intensifies on hover */
+}
+
+/* THE PULSE EFFECT */
+@keyframes anchorPulse {
+    0%, 100% { 
+        box-shadow: 0 0 40px rgba(0, 229, 255, 0.15); 
+        transform: scale(1);
+    }
+    50% { 
+        box-shadow: 0 0 65px rgba(0, 229, 255, 0.35); 
+        transform: scale(1.01); /* Very subtle breathing effect */
+    }
+}
+
 
     /* CONTAINER */
     .container { width: 100%; max-width: 800px; padding: 0 30px; }
