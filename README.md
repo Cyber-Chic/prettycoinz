@@ -11,9 +11,9 @@
 | <img src="https://cyber-chic.github.io/prettycoinz/img/Anchor.jpg" width="350" alt="The Pretty Coin Rose" style="image-rendering: smooth; display: block; border: 2px solid #eee; margin: auto;"> |
 | **[ SIGNAL_BACK: BEAL PROOF]** |
 
-Named after the [Beal Conjecture](http://bealconjecture.com), this benchmark serves as the "Sovereign Anchor" of the collection. This is a study in **Capital Persistence**, where the digital trajectory of a disciplined investment portfolio is validated by a physical specimen.
+Named after the [Beal Conjecture](https://www.bealconjecture.com/), this benchmark serves as the "Sovereign Anchor" of the collection. This is a study in **Capital Persistence**, where the digital trajectory of a disciplined investment portfolio is validated by a physical specimen.
 
-*   **The Math:** This project honors the principal investigator's award-winning research into the Beal Conjecture (presented at the **100th Anniversary of MathFest** and recipient of the **Westfair Milli Award**).
+*   **The Math:** This project honors the principal investigator's award-winning research into the Beal Conjecture. Originally published in the **CMC3 Proceedings** (19th Annual Lake Tahoe Conference), the work was subsequently featured in the **MAA 100th Anniversary Celebration** at MathFest and is the recipient of the **Westfair Milli Award**.
 *   **The Asset:** The **Beal Mountain Proof** is an aesthetic silver specimen chosen as the definitive "Physical Signal" for our internal valuation targets.
 *   **The Trajectory:** Currently projected to surpass historical benchmark evaluation, this **10-Year Inquiry** aims to independently match or exceed the valuation of the official Beal Prize through private equity growth.
 
@@ -51,8 +51,8 @@ As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests 
 ### \[ 🔍 VERIFICATION & INSTITUTIONAL RECORD ]
 
 *   **Geospatial Research:** [The Moore Archive (TMA): An Inquiry into Digital-Physical Handshake Protocols](https://www.researchgate.net/publication/400971211)
-*   **Mathematics (CMC3):** [Beal's Conjecture vs “Positive Zero”, Fight](https://www.cmc3.org/conferences/past/2015/spring/presentations/angela_moore_paper.pdf)
-*   **Academic Presentation:** [MAA 100th Anniversary MathFest (PDF p. 153)](https://maa.org/wp-content/uploads/2025/02/MF15-Abstracts.pdf)
+*   **Refereed Proceedings (CMC3):** [Beal's Conjecture vs “Positive Zero”, Fight](https://www.cmc3.org/conferences/past/2015/spring/presentations/angela_moore_paper.pdf)
+*   **Academic Conference (MAA):** [MAA 100th Anniversary MathFest (PDF p. 153)](https://maa.org/wp-content/uploads/2025/02/MF15-Abstracts.pdf)
 *   **The Milli Award:** [Recognition for "innovative refutation" of Beals Conjecture - Life As A Human Magazine](https://lifeasahuman.com/2015/mind-spirit/inspirational/a-milli-award-for-the-million-dollar-question-beals-conjecture-the-once-in-a-million-journey-of-angela-moore/)
 
 ---
@@ -62,12 +62,12 @@ As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests 
 
 ---
 ### [ 🛰️ PROJECT SUBSYSTEM ]
-**Part of the [Moore Archive](https://emaze.me/tma) Creative Ecosystem.**  
+**Part of the [Moore Archive](https://cyber-chic.github.io/themoorearchive/releases) Creative Ecosystem.**  
 *Bridging the gap between digital code and physical reality.*
 
 **EXPLORE THE NETWORK:**
 *   **🔭 RESEARCH:** [NASA Exoplanet Watch Data](https://github.com/Cyber-Chic/nasa)
-*   **🧪 ARCHIVE:** [The Moore Archive | Physical Artifact Hunt](https://emaze.me/tma)
+*   **🧪 ARCHIVE:** [The Moore Archive | Physical Artifact Hunt](https://cyber-chic.github.io/themoorearchive/releases)
 *   **📡 TERMINAL:** [Cyber-Chic Home & Protocols](https://github.com/Cyber-Chic)
 
 **[ ☕ MISSION SUSTENANCE ]**
