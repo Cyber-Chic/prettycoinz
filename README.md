@@ -29,6 +29,8 @@ In this system, **1 Coin = 1 Personal Financial Benchmark**. Supported by a disc
 *   **Aesthetic Review:** Evaluative tracking of non-benchmark assets based on **Aesthetic Alpha** and historical auction performance.
 *   **Protocol:** The Kindness Awareness Campaign (Ben’s Bells Coins) 💎
 
+> **Institutional Note:** While media archives may utilize broader categorical titles (e.g., "Librarian"), this repository maintains signal integrity by noting that these strategic equity systems were developed during the Principal Investigator's tenure as a **Paralibrarian**.
+
 ---
 
 ### [ 🧪 THE INQUIRY: POSITIVE ZERO IN PRACTICE ]
