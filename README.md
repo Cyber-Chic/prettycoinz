@@ -6,6 +6,11 @@
 ### [ 🔘 THE BEAL MOUNTAIN BENCHMARK ]
 **The Objective:** To achieve a 1:1 synchronization between a **Proprietary Evaluation Milestone** and the acquisition of the physical **[Beal Mountain Proof](https://cyber-chic.github.io/prettycoinz/info).**
 
+| [ THE BEAL BENCHMARK SPECIMEN ] |
+| :---: |
+| <img src="https://cyber-chic.github.io/prettycoinz/img/Anchor.jpg" width="350" alt="The Pretty Coin Rose" style="image-rendering: smooth; display: block; border: 2px solid #eee; margin: auto;"> |
+| **[ SIGNAL_BACK: BEAL PROOF]** |
+
 Named after the [Beal Conjecture](http://bealconjecture.com), this benchmark serves as the "Sovereign Anchor" of the collection. This is a study in **Capital Persistence**, where the digital trajectory of a disciplined investment portfolio is validated by a physical specimen.
 
 *   **The Math:** This project honors the principal investigator's award-winning research into the Beal Conjecture (presented at the **100th Anniversary of MathFest** and recipient of the **Westfair Milli Award**).
