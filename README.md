@@ -50,10 +50,10 @@ As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests 
 
 ### \[ 🔍 VERIFICATION & INSTITUTIONAL RECORD ]
 
-*   **Geospatial Research:** [The Moore Archive (TMA): An Inquiry into Digital-Physical Handshake Protocols](https://www.researchgate.net/publication/400971211)
+*   **Digi-Physical Protocols (ResearchGate):** [The Moore Archive (TMA): An Inquiry into Digital-Physical Handshake Protocols](https://www.researchgate.net/publication/400971211)
 *   **Refereed Proceedings (CMC3):** [Beal's Conjecture vs “Positive Zero”, Fight](https://www.cmc3.org/conferences/past/2015/spring/presentations/angela_moore_paper.pdf)
 *   **Academic Conference (MAA):** [MAA 100th Anniversary MathFest (PDF p. 153)](https://maa.org/wp-content/uploads/2025/02/MF15-Abstracts.pdf)
-*   **The Milli Award:** [Recognition for "innovative refutation" of Beals Conjecture - Life As A Human Magazine](https://lifeasahuman.com/2015/mind-spirit/inspirational/a-milli-award-for-the-million-dollar-question-beals-conjecture-the-once-in-a-million-journey-of-angela-moore/)
+*   **The Milli Award (Westfair):** [Recognition for "innovative refutation" of Beals Conjecture - Life As A Human Magazine](https://lifeasahuman.com/2015/mind-spirit/inspirational/a-milli-award-for-the-million-dollar-question-beals-conjecture-the-once-in-a-million-journey-of-angela-moore/)
 
 ---
 
