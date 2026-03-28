@@ -29,6 +29,9 @@
             align-items: center;
             -webkit-font-smoothing: antialiased;
             min-height: 100vh;
+         /* DEEP MIDNIGHT: A very dark blue is much softer on the eyes than pure black */
+        background: #0a0e14; 
+        background-attachment: fixed;
         }
 
         /* HEADER & TYPOGRAPHY */
@@ -114,30 +117,32 @@
             text-shadow: 0 0 10px rgba(0, 229, 255, 0.25);
         }
 
-        .sub-label { 
-            font-family: 'Courier New', Courier, monospace; 
-            font-size: 0.8rem; 
-            color: #5da9e9; 
-            letter-spacing: 3px; 
-            text-transform: uppercase; 
-            margin: 0 0 15px 0; 
-            display: block;
-            font-weight: bold;
-        }
+   .body-text { 
+        font-size: 1.3rem; 
+        color: #94a3b8; /* Muted Slate: Softens the 'glow' for better scanning */
+        line-height: 1.85; /* Standard research 'sweet spot' for comfort */
+        letter-spacing: 0.02em; 
+        margin-bottom: 55px;  
+        text-align: left; /* THE CRITICAL FIX: Stops eye-wandering instantly */
+        font-style: italic; 
+        border-left: 3px solid rgba(0, 229, 255, 0.35); /* Strong Return Anchor */
+        padding-left: 28px;
+        overflow-wrap: break-word;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
 
-        .body-text { 
-            font-size: 1.35rem; 
-            color: var(--platinum); 
-            line-height: 2.2; 
-            letter-spacing: 0.03em; 
-            margin-bottom: 65px; 
-            text-align: justify; 
-            font-style: italic; 
-            border-left: 2px solid rgba(0, 229, 255, 0.15); 
-            padding-left: 25px;
-            text-rendering: geometricPrecision;
-            word-spacing: 0.09em;  
-        }
+    .sub-label { 
+        font-family: 'Courier New', Courier, monospace; 
+        font-size: 0.75rem; 
+        color: #4682b4; /* Steel Blue: Institutional and steady */
+        letter-spacing: 4px; 
+        text-transform: uppercase; 
+        margin: 0 0 12px 0; 
+        display: block;
+        font-weight: bold;
+        white-space: nowrap;
+    }
 
         .body-text strong { color: #ffffff; font-weight: 700; text-shadow: 0 0 10px rgba(255, 255, 255, 0.2); }
 
