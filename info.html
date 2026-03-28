@@ -4,284 +4,241 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Moore Archive | Pretty Coinz</title>
-<style>
-    /* GLOBAL RESET & VARIABLES */
-    * { box-sizing: border-box; }
-
-    :root {
-        --neon-blue: #00e5ff;
-        --bg-black: #050505;
-    }
-
-    body {
-        background: radial-gradient(circle at center, #0d1117 0%, #050505 100%);
-        background-attachment: fixed;
-        color: #d1d1d1; 
-        font-family: 'Times New Roman', serif;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        -webkit-font-smoothing: antialiased;
-        min-height: 100vh;
-    }
-
-        /* THE GOLDEN LINK - White Gold to Neon Blue */
-    .gold-link {
-        color: #e5e5e5; /* White Gold / Platinum */
-        text-decoration: none;
-        font-weight: 700;
-        border-bottom: 1px solid rgba(229, 229, 225, 0.3);
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        position: relative;
-    }
-
-    .gold-link:hover {
-        color: var(--neon-blue);
-        border-bottom-color: var(--neon-blue);
-        text-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
-        letter-spacing: 1px; /* Subtle expansion on hover */
-    }
-
-    .sub-label { 
-        font-family: 'Courier New', Courier, monospace; 
-        font-size: 0.8rem; 
-        color: #5da9e9; /* Sky Blue: High-legibility, low-vibration */
-        letter-spacing: 3px; 
-        text-transform: uppercase; 
-        margin: 0 0 15px 0; 
-        opacity: 0.9; 
-        display: block;
-        font-weight: bold;
-        white-space: nowrap;
-    }
-
-    /* HEADER */
-    header { 
-        width: 100%; 
-        padding: 60px 0 40px; 
-        text-align: center; 
-        background: linear-gradient(to bottom, #000 0%, rgba(0, 229, 255, 0.03) 100%);
-        border-bottom: 1px solid rgba(0, 229, 255, 0.15); 
-    }
-    .name-brand { font-family: 'Libre Baskerville', serif; font-size: 0.85rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 15px; display: inline-block; }
-    h1 { font-family: 'Libre Baskerville', serif; font-size: clamp(1.6rem, 5vw, 2.2rem); color: #fff; margin: 0; letter-spacing: 2px; text-transform: uppercase; }
-/* --- CLEANED UP HERO SECTION --- */
-
-header { 
-    padding: 80px 0 60px; 
-    background: #000; /* Pure black for maximum contrast */
-    text-align: center;
-}
-
-h1 { 
-    font-family: 'Libre Baskerville', serif; 
-    font-size: clamp(1.4rem, 4vw, 1.8rem); 
-    letter-spacing: 6px; 
-    color: #fff;
-    text-transform: uppercase;
-    position: relative;
-    z-index: 20; 
-    font-weight: 500; /* Subtle weight increase */
-    /* THE INVISIBLE WEIGHT: A sharp, 1px offset with zero blur */
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8); 
-    -webkit-font-smoothing: antialiased;
-    letter-spacing: 7px; /* Increased slightly to balance the new "weight" */
-}
-
-.name-brand { 
-    font-size: 0.7rem; 
-    letter-spacing: 8px; 
-    color: var(--neon-blue); /* Ensure this variable is defined in your :root */
-    margin-bottom: 25px;
-    position: relative;
-    z-index: 20;
-    font-weight: 700;
-    letter-spacing: 9px;
-    /* Adds a "glow" weight rather than "ink" weight */
-    text-shadow: 0 0 1px rgba(0, 229, 255, 0.4); 
-
-}
-
-.hero-exhibit {
-    margin-top: 40px; 
-    padding: 60px 20px; 
-    text-align: center;
-    position: relative;
-    z-index: 10;
-}
-
-.hero-exhibit img {
-    width: 100%;
-    max-width: 420px; 
-    border-radius: 50%;
-    border: 1px solid rgba(0, 229, 255, 0.2); /* Matching the blue glow */
-    padding: 20px; 
+    <!-- IMPORTING THE INSTITUTIONAL FONTS -->
+    <link href="https://googleapis.com" rel="stylesheet">
     
-    /* THE GLOW: Combined your gold and blue into one cohesive "Scientific" feel */
-    background: radial-gradient(circle, rgba(0, 229, 255, 0.05) 0%, transparent 70%);
-    box-shadow: 0 0 50px rgba(0, 229, 255, 0.2);
-    
-    /* ADDING THE PULSE ANIMATION */
-    animation: anchorPulse 4s infinite ease-in-out;
-    transition: all 0.5s ease;
-    max-width: 400px;
-    border-radius: 50%;
-body    
-    /* THE SOFT-FOCUS BUFFER: 40px of diffusion reduces eye-strain */
-    filter: drop-shadow(0 0 40px rgba(197, 160, 89, 0.15));
-    
-    /* ADD A SOFT RADIAL GRADIENT BEHIND THE COIN */
-    background: radial-gradient(circle, rgba(197, 160, 89, 0.05) 0%, transparent 75%);
-    padding: 30px;
-}
+    <style>
+        /* GLOBAL RESET & VARIABLES */
+        * { box-sizing: border-box; }
 
-.hero-exhibit img:hover {
-    transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) scale(1.05);
-    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.9));
-    box-shadow: 0 0 70px rgba(0, 229, 255, 0.5); /* Intensifies on hover */
-}
+        :root {
+            --neon-blue: #00e5ff;
+            --bg-black: #050505;
+            --platinum: #b0c4de;
+        }
 
-/* THE PULSE EFFECT */
-@keyframes anchorPulse {
-    0%, 100% { 
-        box-shadow: 0 0 40px rgba(0, 229, 255, 0.15); 
-        transform: scale(1);
-    }
-    50% { 
-        box-shadow: 0 0 65px rgba(0, 229, 255, 0.35); 
-        transform: scale(1.01); /* Very subtle breathing effect */
-    }
-}
+        body {
+            background: radial-gradient(circle at center, #0d1117 0%, #050505 100%);
+            background-attachment: fixed;
+            color: #d1d1d1; 
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
 
+        /* HEADER & TYPOGRAPHY */
+        header { 
+            width: 100%; 
+            padding: 80px 0 60px; 
+            text-align: center; 
+            background: #000;
+            border-bottom: 1px solid rgba(0, 229, 255, 0.15); 
+        }
 
-    /* CONTAINER */
-    .container { width: 100%; max-width: 800px; padding: 0 30px; }
+        .name-brand { 
+            font-family: 'Libre Baskerville', serif; 
+            font-size: 0.7rem; 
+            color: var(--neon-blue); 
+            letter-spacing: 9px; 
+            text-transform: uppercase; 
+            margin-bottom: 25px; 
+            display: inline-block;
+            font-weight: 700;
+            text-shadow: 0 0 1px rgba(0, 229, 255, 0.4); 
+        }
 
-    .section-title { 
-        font-family: 'Libre Baskerville', serif; 
-        font-size: 1.25rem; 
-        color: rgba(0, 229, 255, 0.85); 
-        font-weight: 700; 
-        border-left: 5px solid rgba(0, 229, 255, 0.6); 
-        padding: 15px 0 15px 25px; 
-        margin: 100px 0 45px; 
-        text-transform: uppercase;
-        letter-spacing: 5px; 
-        width: 100%; 
-        border-bottom: 1px solid rgba(0, 229, 255, 0.15); 
-        background: linear-gradient(to right, rgba(0, 229, 255, 0.08), transparent);
-        text-shadow: 0 0 10px rgba(0, 229, 255, 0.25), 0 0 20px rgba(0, 229, 255, 0.1);
-    }
+        h1 { 
+            font-family: 'Libre Baskerville', serif; 
+            font-size: clamp(1.4rem, 4vw, 1.8rem); 
+            color: #fff; 
+            margin: 0; 
+            letter-spacing: 7px; 
+            text-transform: uppercase; 
+            font-weight: 500;
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+        }
 
-    .body-text { 
-        font-size: 1.35rem; 
-        color: #b0c4de; /* Original soft Blue-Grey you liked */
-        line-height: 2.1; 
-        letter-spacing: 0.03em; 
-        word-spacing: normal; /* RESET: Removes the large, awkward gaps */
-        margin-bottom: 65px; 
-        text-align: justify; 
-        font-style: italic; 
-        border-left: 2px solid rgba(0, 229, 255, 0.15); /* Faint Neon-Blue guide rail */
-        padding-left: 25px;
-        overflow-wrap: break-word;
-	/* Add this inside your .body-text to lock the letters in place */
-	text-rendering: geometricPrecision; 
-    }
-    .body-text strong { color: #ffffff; font-weight: 700; text-shadow: 0 0 10px rgba(255, 255, 255, 0.2); }
+        /* HERO EXHIBIT */
+        .hero-exhibit {
+            margin-top: 40px; 
+            padding: 60px 20px; 
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
 
-    .protocol-link { color: var(--neon-blue); text-decoration: none; border-bottom: 1px solid rgba(0, 229, 255, 0.4); transition: 0.3s ease; }
-    .highlight { background: rgba(0, 229, 255, 0.15); padding: 2px 4px; border-radius: 2px; }
+        .hero-exhibit img {
+            width: 100%;
+            max-width: 400px; 
+            border-radius: 50%;
+            border: 1px solid rgba(0, 229, 255, 0.2);
+            padding: 30px; 
+            background: radial-gradient(circle, rgba(0, 229, 255, 0.05) 0%, transparent 75%);
+            box-shadow: 0 0 50px rgba(0, 229, 255, 0.2);
+            filter: drop-shadow(0 0 40px rgba(197, 160, 89, 0.15));
+            animation: anchorPulse 4s infinite ease-in-out;
+            transition: all 0.5s ease;
+        }
 
-    /* THE HUB - Liquid Neon Sheen */
-    .link-hub { 
-        width: 100%; 
-        padding: 120px 20px; 
-        display: flex; 
-        justify-content: center; 
-        flex-wrap: wrap; 
-        gap: 35px;
-        margin-top: 80px;
-        background: linear-gradient(135deg, #000 30%, rgba(0, 229, 255, 0.08) 50%, #000 70%);
-        background-size: 200% 200%;
-        animation: signal-shimmer 8s ease-in-out infinite;
-        border-top: 1px solid rgba(0, 229, 255, 0.2);
-    }
+        .hero-exhibit img:hover {
+            transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) scale(1.05);
+            box-shadow: 0 0 70px rgba(0, 229, 255, 0.5);
+        }
 
-    @keyframes signal-shimmer {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-    }
+        @keyframes anchorPulse {
+            0%, 100% { box-shadow: 0 0 40px rgba(0, 229, 255, 0.15); transform: scale(1); }
+            50% { box-shadow: 0 0 65px rgba(0, 229, 255, 0.35); transform: scale(1.01); }
+        }
 
-    .archive-btn { 
-        text-decoration: none; 
-        display: flex; 
-        flex-direction: column; 
-        align-items: center; 
-        justify-content: center; 
-        border: 1px solid rgba(0, 229, 255, 0.5); 
-        background: #000; 
-        padding: 45px 40px; 
-        transition: 0.6s cubic-bezier(0.4, 0, 0.2, 1); 
-        min-width: 320px; 
-        position: relative; 
-        overflow: hidden;
-        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
-    }
+        /* CONTENT ELEMENTS */
+        .container { width: 100%; max-width: 800px; padding: 0 30px; }
 
-    .archive-btn::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(120deg, transparent, rgba(0, 229, 255, 0.2), transparent);
-        transition: 0.7s;
-    }
-    .archive-btn:hover::before { left: 100%; }
+        .section-title { 
+            font-family: 'Libre Baskerville', serif; 
+            font-size: 1.25rem; 
+            color: rgba(0, 229, 255, 0.85); 
+            font-weight: 700; 
+            border-left: 5px solid rgba(0, 229, 255, 0.6); 
+            padding: 15px 0 15px 25px; 
+            margin: 100px 0 45px; 
+            text-transform: uppercase;
+            letter-spacing: 5px; 
+            width: 100%; 
+            border-bottom: 1px solid rgba(0, 229, 255, 0.15); 
+            background: linear-gradient(to right, rgba(0, 229, 255, 0.08), transparent);
+            text-shadow: 0 0 10px rgba(0, 229, 255, 0.25);
+        }
 
-    .archive-btn:hover { 
-        border-color: var(--neon-blue); 
-        background: #080808; 
-        box-shadow: 0 0 30px rgba(0, 229, 255, 0.25);
-        transform: translateY(-3px); 
-    }
+        .sub-label { 
+            font-family: 'Courier New', Courier, monospace; 
+            font-size: 0.8rem; 
+            color: #5da9e9; 
+            letter-spacing: 3px; 
+            text-transform: uppercase; 
+            margin: 0 0 15px 0; 
+            display: block;
+            font-weight: bold;
+        }
 
-    .archive-btn span { font-size: 0.75rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 12px; position: relative; z-index: 1; text-shadow: 0 0 8px rgba(0, 229, 255, 0.4); }
-    .archive-btn strong { font-family: 'Libre Baskerville', serif; color: #ffffff; font-size: 1rem; letter-spacing: 2px; font-weight: 400; position: relative; z-index: 1; text-shadow: 0 0 10px rgba(255,255,255,0.2); }
+        .body-text { 
+            font-size: 1.35rem; 
+            color: var(--platinum); 
+            line-height: 2.2; 
+            letter-spacing: 0.03em; 
+            margin-bottom: 65px; 
+            text-align: justify; 
+            font-style: italic; 
+            border-left: 2px solid rgba(0, 229, 255, 0.15); 
+            padding-left: 25px;
+            text-rendering: geometricPrecision;
+            word-spacing: 0.09em;  
+        }
 
-    .gateway { padding: 60px 0; text-align: center; width: 100%; background: #000; }
-    .back-link { color: #555; text-decoration: none; font-size: 0.8rem; letter-spacing: 5px; text-transform: uppercase; transition: 0.4s; }
-    .back-link:hover { color: var(--neon-blue); text-shadow: 0 0 10px var(--neon-blue); }
+        .body-text strong { color: #ffffff; font-weight: 700; text-shadow: 0 0 10px rgba(255, 255, 255, 0.2); }
 
-    .terminal-footer { width: 100%; text-align: center; padding: 80px 20px; background: #000; border-top: 1px solid #111; }
-    .footer-signal { color: #777; text-decoration: none; font-size: 0.75rem; letter-spacing: 4px; text-transform: uppercase; transition: 0.4s ease; display: inline-block; line-height: 2; }
-    .footer-prompt { color: var(--neon-blue); font-weight: bold; }
-    .footer-signal:hover { color: #fff; text-shadow: 0 0 8px var(--neon-blue); }
-    .footer-signal:hover .footer-prompt { color: #c5a059; text-shadow: 0 0 10px rgba(197, 160, 89, 0.5); }
+        .gold-link {
+            color: #e5e5e5;
+            text-decoration: none;
+            font-weight: 700;
+            border-bottom: 1px solid rgba(229, 229, 225, 0.3);
+            transition: all 0.4s ease;
+        }
 
-    /* MOBILE CALIBRATION */
-    @media screen and (max-width: 768px) {
-         text-align: left; /* Justified text on mobile is the #1 cause of strain */
-         padding-left: 15px;
-         border-left: 1px solid rgba(72, 126, 171, 0.1); /* Ghost-thin guide rail */
-        header { padding: 40px 15px 30px; }
-        h1 { font-size: 1.4rem; letter-spacing: 1px; }
-        .hero-exhibit { padding: 30px 20px; }
-        .hero-exhibit img { max-width: 280px; }
-        .section-title { font-size: 0.95rem; letter-spacing: 2px; white-space: nowrap; margin: 50px 0 25px; padding-left: 15px; }
-        .body-text { text-align: left; font-size: 1.1rem; line-height: 1.8; margin-bottom: 40px; }
-        .link-hub { flex-direction: column; align-items: center; padding: 50px 20px; gap: 20px; }
-        .archive-btn { width: 100%; min-width: unset; padding: 30px 20px; }
-        .terminal-footer { padding: 60px 10px; }
-        .footer-signal { font-size: 0.6rem; letter-spacing: 2px; white-space: nowrap; display: block; overflow: hidden; text-overflow: ellipsis; }
-        .footer-prompt { font-size: 0.6rem; }
-    }
-</style>
+        .gold-link:hover {
+            color: var(--neon-blue);
+            border-bottom-color: var(--neon-blue);
+            text-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
+        }
+
+        .protocol-link { color: var(--neon-blue); text-decoration: none; border-bottom: 1px solid rgba(0, 229, 255, 0.4); }
+        .highlight { background: rgba(0, 229, 255, 0.15); padding: 2px 4px; }
+
+        /* THE HUB */
+        .link-hub { 
+            width: 100%; 
+            padding: 120px 20px; 
+            display: flex; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+            gap: 35px;
+            margin-top: 80px;
+            background: linear-gradient(135deg, #000 30%, rgba(0, 229, 255, 0.08) 50%, #000 70%);
+            background-size: 200% 200%;
+            animation: signal-shimmer 8s ease-in-out infinite;
+            border-top: 1px solid rgba(0, 229, 255, 0.2);
+        }
+
+        @keyframes signal-shimmer {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .archive-btn { 
+            text-decoration: none; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center; 
+            border: 1px solid rgba(0, 229, 255, 0.3); 
+            background: #000; 
+            padding: 45px 40px; 
+            transition: 0.6s cubic-bezier(0.4, 0, 0.2, 1); 
+            min-width: 320px; 
+            position: relative; 
+            overflow: hidden;
+        }
+
+        .archive-btn::before {
+            content: '';
+            position: absolute;
+            top: 0; left: -100%;
+            width: 100%; height: 100%;
+            background: linear-gradient(120deg, transparent, rgba(0, 229, 255, 0.1), transparent);
+            transition: 0.7s;
+        }
+
+        .archive-btn:hover::before { left: 100%; }
+
+        .archive-btn:hover { 
+            border-color: var(--neon-blue); 
+            background: #080808; 
+            box-shadow: 0 0 30px rgba(0, 229, 255, 0.2);
+            transform: translateY(-3px); 
+        }
+
+        .archive-btn span { font-size: 0.75rem; color: var(--neon-blue); letter-spacing: 4px; text-transform: uppercase; margin-bottom: 12px; }
+        .archive-btn strong { font-family: 'Libre Baskerville', serif; color: #ffffff; font-size: 1rem; letter-spacing: 2px; font-weight: 400; }
+
+        /* FOOTER */
+        .gateway { padding: 60px 0; text-align: center; width: 100%; background: #000; }
+        .back-link { color: #555; text-decoration: none; font-size: 0.8rem; letter-spacing: 5px; text-transform: uppercase; transition: 0.4s; }
+        .back-link:hover { color: var(--neon-blue); }
+
+        .terminal-footer { width: 100%; text-align: center; padding: 80px 20px; background: #000; border-top: 1px solid #111; }
+        
+        /* MOBILE CALIBRATION */
+        @media screen and (max-width: 768px) {
+            header { padding: 40px 15px 30px; }
+            h1 { font-size: 1.4rem; letter-spacing: 3px; }
+            .hero-exhibit img { max-width: 280px; }
+            .section-title { font-size: 0.95rem; letter-spacing: 2px; }
+            .body-text { 
+                text-align: left; 
+                font-size: 1.1rem; 
+                line-height: 1.8; 
+                padding-left: 15px;
+                border-left: 1px solid rgba(72, 126, 171, 0.2);
+            }
+            .link-hub { flex-direction: column; align-items: center; padding: 50px 20px; }
+            .archive-btn { width: 100%; min-width: unset; }
+        }
+    </style>
 </head>
 <body>
 
@@ -291,64 +248,51 @@ body
 </header>
 
 <section class="hero-exhibit">
+    <!-- Ensure your image path is correct -->
     <img src="img/Anchor.jpg" alt="Beal Mountain silver proof coin">
 </section>
 
-<!-- THE PLATINUM DIVIDER -->
 <div style="width: 100%; display: flex; justify-content: center; padding: 60px 0;">
-    <div style="width: 320px; height: 1px; background: linear-gradient(to right, transparent, #b0c4de 50%, transparent); opacity: 0.3; box-shadow: 0 0 12px rgba(176, 196, 222, 0.2);"></div>
+    <div style="width: 320px; height: 1px; background: linear-gradient(to right, transparent, #b0c4de 50%, transparent); opacity: 0.3;"></div>
 </div>
 
 <div class="container">
-    <!-- SECTION 1: THE CAPITAL TRAJECTORY -->
     <div class="section-title">🏛️ The Beauty Index</div>
     
-    <!-- PART A -->
     <span class="sub-label">Institutional Foundation</span>
     <div class="body-text">
         <strong>Pretty Coinz</strong> is a numismatic study inspired by PCGS analysis of artistic merit. This experiment evaluates the capacity for <strong>aesthetic assets</strong> to retain value or surpass traditional market benchmarks. Supported by a disciplined investment philosophy I was featured in a <strong>The New York Times</strong> ad campaign, and have established a portfolio that affords the freedom to pursue specialized research.
     </div>
 
-    <!-- PART B -->
     <span class="sub-label">Active Research Methodology</span>
     <div class="body-text">
         To visualize this trajectory, I acquire a specific coin for every Capital Milestone reached—serving as <strong>Physical Milestone Trackers</strong> for my invested equity growth. Beyond these benchmarks, I maintain a <strong>Qualitative Control Group</strong>: non-milestone specimens subjected to <strong>Comparative Aesthetic Analysis</strong> to illustrate the variables within the <em>Beauty Index</em> and test the limits of visual merit.
     </div>
 
-
-    <!-- SECTION 2: THE BASAL RESERVE -->
     <div class="section-title">🏛️ The Basal Reserve</div>
-    <!-- Use this for your sub-labels -->
-<span class="sub-label" style="white-space: nowrap;">Foundational Equity // Decoupled</span>
+    <span class="sub-label">Foundational Equity // Decoupled</span>
     <div class="body-text">
         Beneath the active trajectory lies the <strong>Basal Reserve</strong>: my direct real estate holdings tracked via the <strong>personal iltravjer</strong> (Individual Land-Trace Real Asset Value Joint-Equity Register). Represented by 
-        <a href="https://goldback.com" target="_blank" class="gold-link">24k gold</a>, 
-        this foundational asset remains decoupled from my active milestones to maintain the mathematical integrity of the study—visually marking the stability that underlies this specialized research.
+        <a href="https://goldback.com/" target="_blank" class="gold-link">24k gold</a>, 
+        this foundational asset remains decoupled from my active milestones to maintain the mathematical integrity of the study.
     </div>
 
-    
-    <!-- SECTION 3: THE SOVEREIGN ANCHOR -->
     <div class="section-title">🏛️ The Sovereign Anchor</div>
-    
-    <!-- PART C -->
     <span class="sub-label">Physical Milestone Signaling</span>
     <div class="body-text">
-        This project concludes with the <strong>Beal Benchmark</strong>: an inquiry spanning over a decade aimed at independently surpassing the valuation of the official Beal Prize. The archive’s first chapter will close with the acquisition of the <a href="https://www.icollecteverything.com/db/custom/1157864/coin/95071/" target="_blank" class="protocol-link highlight">Beal Mountain Proof</a>. This anchor closes the loop between the Archivist’s award-winning mathematical theory on the <strong>Beal Conjecture</strong> (Westfair Milli Award) and physical reality—serving as the definitive Physical Signal for a monumental portfolio milestone.
+        This project concludes with the <strong>Beal Benchmark</strong>: an inquiry spanning over a decade aimed at independently surpassing the valuation of the official Beal Prize. The archive’s first chapter will close with the acquisition of the <a href="https://www.icollecteverything.com/db/custom/1157864/coin/95071/" target="_blank" class="protocol-link highlight">Beal Mountain Proof</a>. This anchor closes the loop between the Archivist’s award-winning mathematical theory on the <strong>Beal Conjecture</strong> (Westfair Milli Award) and physical reality.
     </div>
 </div>
-
 
 <div class="link-hub">
     <a href="https://www.nytimes.com/paidpost/tiaa/on-the-right-track-retirement-ready.html" class="archive-btn">
         <span>Strategic Foundation</span>
         <strong>THE NYT FEATURE</strong>
     </a>
-
     <a href="https://cyber-chic.github.io/prettycoinz/resources" class="archive-btn">
         <span>Technical Intelligence</span>
         <strong>THE RESOURCE INDEX</strong>
     </a>
-
     <a href="https://www.icollecteverything.com/share/1157864/coin_Coins/main/title/?n=Yhe%20Pretty%20Coinz%20Collection" class="archive-btn">
         <span>Curated Archive</span>
         <strong>THE COIN GALLERY</strong>
@@ -359,26 +303,18 @@ body
     <a href="https://emaze.me/prettycoinz" class="back-link">← Return to Homepage</a>
 </div>
 
-<footer class="terminal-footer" style="width: 100%; text-align: center; padding: 80px 20px; background: #000; border-top: 1px solid #111;">
-    
-    <!-- THE SINGLE LINE SCROLLER: VIEW LITERARY RELEASES -->
+<footer class="terminal-footer">
     <a href="https://cyber-chic.github.io/themoorearchive/releases" 
-       class="footer-signal" 
        style="color: #666; text-decoration: none; font-size: 0.75rem; letter-spacing: 4px; text-transform: uppercase; 
-              display: block; width: 100%; max-width: 100vw; white-space: nowrap; overflow-x: auto; 
-              scrollbar-width: none; -ms-overflow-style: none; line-height: 2.5; padding: 0 20px;">
-        
-        <span style="color: #00bcd4; font-weight: bold; text-shadow: 0 0 12px rgba(0, 188, 212, 0.3);">VIEW LITERARY RELEASES & ART DROPS //</span> 
+              display: block; width: 100%; white-space: nowrap; overflow-x: auto; line-height: 2.5; padding: 0 20px; -webkit-overflow-scrolling: touch;">
+        <span style="color: #00bcd4; font-weight: bold;">VIEW LITERARY RELEASES & ART DROPS //</span> 
         © 2026 THE MOORE ARCHIVE // THE SIGNAL SURVIVES ON HONOR.
     </a>
 
-    <!-- THE INSTITUTIONAL SHIELD: STAYS FIXED BELOW -->
-    <div class="admin-note" style="max-width: 450px; margin: 40px auto 0; padding: 15px; border: 1px solid rgba(0, 188, 212, 0.3); background: rgba(0, 188, 212, 0.02); border-radius: 4px; text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 0.8rem; color: #a0aec0; letter-spacing: 2px; text-transform: uppercase; box-shadow: 0 0 20px rgba(0, 188, 212, 0.1);">
-        <span style="color: #00bcd4; font-weight: bold;">NYT_REF:</span> <span style="color: #fff; text-shadow: 0 0 5px rgba(0, 188, 212, 0.6);">PARALIBRARIAN</span> // <span style="color: #00bcd4; font-weight: bold;">STATUS:</span> VETTED
+    <div class="admin-note" style="max-width: 450px; margin: 40px auto 0; padding: 15px; border: 1px solid rgba(0, 188, 212, 0.3); background: rgba(0, 188, 212, 0.02); font-family: 'Courier New', monospace; font-size: 0.8rem; color: #a0aec0; letter-spacing: 2px; text-transform: uppercase;">
+        <span style="color: #00bcd4; font-weight: bold;">NYT_REF:</span> <span style="color: #fff;">PARALIBRARIAN</span> // <span style="color: #00bcd4; font-weight: bold;">STATUS:</span> VETTED
     </div>
-
 </footer>
-
 
 </body>
 </html>
