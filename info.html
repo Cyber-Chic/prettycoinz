@@ -34,6 +34,23 @@
         background-attachment: fixed;
         }
 
+
+    /* THE BASE STATE: Slightly dimmed to save your eyes */
+    .hero-img, .goldback-pair img {
+        filter: brightness(0.8) contrast(1.1);
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+    }
+
+    /* THE HOVER STATE: "Lights up" and glows when you touch it */
+    .hero-img:hover, .goldback-pair img:hover {
+        filter: brightness(1.2) contrast(1.2); /* "Lights up" the gold/silver */
+        transform: scale(1.03); /* Subtle 'pop' toward the viewer */
+        box-shadow: 0 0 30px rgba(0, 229, 255, 0.4); /* Neon-Blue halo */
+        z-index: 10;
+    }
+
+
         /* HEADER & TYPOGRAPHY */
         header { 
             width: 100%; 
@@ -360,18 +377,25 @@
     <!-- THE ANCHOR (BEAL) -->
     <div class="exhibit-box">
         <span class="sub-label">// The Sovereign Anchor</span>
-        <img src="img/Anchor.jpg" class="hero-img">
+        <!-- Wrapper starts here -->
+        <a href="https://www.icollecteverything.com/db/custom/1157864/coin/95071/" target="_blank" style="text-decoration: none;">
+            <img src="img/Anchor.jpg" class="hero-img">
+        </a>
     </div>
 
     <!-- THE RESERVE (GOLDBACK) -->
     <div class="exhibit-box">
         <span class="sub-label">// The Basal Reserve</span>
         <div class="goldback-pair">
-            <img src="img/goldback_front.jpg">
-            <img src="img/goldback_back.jpg">
+            <!-- Wrapper starts here -->
+            <a href="https://www.icollecteverything.com/db/custom/1157864/coin/107667/" target="_blank" style="text-decoration: none; display: flex; gap: 10px; justify-content: center; width: 100%;">
+                <img src="img/goldback_front.jpg">
+                <img src="img/goldback_back.jpg">
+            </a>
         </div>
     </div>
 </section>
+
 
 
 <!-- THE PROGRESS BAR: YOUR LIVE SIGNAL -->
