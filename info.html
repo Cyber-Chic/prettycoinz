@@ -101,18 +101,32 @@
         /* CONTENT ELEMENTS */
         .container { width: 100%; max-width: 800px; padding: 0 30px; }
 
-    /* THE PROGRESS TRACKER */
+
+/* THE SUB-LABEL: Ensuring it stays tight to its own image */
+.exhibit-box .sub-label {
+    margin-bottom: 20px !important;
+    display: block;
+}
+
+/* THE LABEL FIX: Separates the 'Basal' label from the 'Beal' image above it */
+.exhibit-box {
+    margin-bottom: 60px; /* Space after the first box */
+    padding-top: 40px;    /* Space before the second label starts */
+}
+
+    /* THE PROGRESS BAR: The "Divider" between your assets and text */
     .progress-container {
         width: 100%;
-        max-width: 600px;
-        margin: 40px auto 100px;
+        max-width: 500px;
+        margin: 80px auto; /* 80px of space above and below the bar */
         text-align: center;
+        padding: 0 20px;
     }
 
     .progress-label {
         font-family: 'Courier New', Courier, monospace;
         font-size: 0.7rem;
-        color: #487eab; /* Your Steel Blue */
+        color: #487eab;
         letter-spacing: 4px;
         text-transform: uppercase;
         margin-bottom: 15px;
@@ -121,10 +135,9 @@
 
     .progress-bar-bg {
         width: 100%;
-        height: 4px; /* Thin, sleek, and scientific */
+        height: 4px;
         background: rgba(255, 255, 255, 0.05);
         border-radius: 2px;
-        position: relative;
         overflow: hidden;
     }
 
@@ -132,15 +145,15 @@
         height: 100%;
         background: linear-gradient(to right, #00e5ff, #487eab);
         box-shadow: 0 0 15px rgba(0, 229, 255, 0.5);
-        width: 20%; /* This is the number you change (12/20 = 60%) */
-        transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
-     	animation: signalPulse 3s infinite ease-in-out;
-	}
+        /* UPDATE THIS PERCENTAGE MANUALLY: 12/20 = 60% */
+        width: 20%; 
+        animation: signalPulse 3s infinite ease-in-out;
+    }
 
-@keyframes signalPulse {
-    0%, 100% { opacity: 1; box-shadow: 0 0 10px rgba(0, 229, 255, 0.4); }
-    50% { opacity: 0.8; box-shadow: 0 0 20px rgba(0, 229, 255, 0.7); }
-}
+    @keyframes signalPulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; box-shadow: 0 0 25px rgba(0, 229, 255, 0.8); }
+    }
 
 
         .section-title { 
@@ -201,6 +214,22 @@
             border-bottom-color: var(--neon-blue);
             text-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
         }
+
+              /* --- DESKTOP FIX: PREVENTS OVALS --- */
+.goldback-pair img {
+    width: 48% !important; /* Keeps Front and Back side-by-side */
+    /* THE RATIO FIX: Set this to match your vertical photo shape */
+    aspect-ratio: 2 / 3; 
+    /* THE FILL FIX: 'contain' ensures the whole photo shows without cropping */
+    object-fit: contain; 
+    background: #000; /* Fills any extra space with black to match your theme */
+    border-radius: 4px !important; 
+    border: 1px solid rgba(0, 229, 255, 0.2);
+    padding: 2px;
+}
+
+}
+
 
         .protocol-link { color: var(--neon-blue); text-decoration: none; border-bottom: 1px solid rgba(0, 229, 255, 0.4); }
         .highlight { background: rgba(0, 229, 255, 0.15); padding: 2px 4px; }
@@ -269,11 +298,43 @@
 
         .terminal-footer { width: 100%; text-align: center; padding: 80px 20px; background: #000; border-top: 1px solid #111; }
         
-        /* MOBILE CALIBRATION */
+
+        /* --- MOBILE CALIBRATION --- */
         @media screen and (max-width: 768px) {
             header { padding: 40px 15px 30px; }
             h1 { font-size: 1.4rem; letter-spacing: 3px; }
-            .hero-exhibit img { max-width: 280px; }
+            
+            .hero-exhibit {
+                display: flex;
+                flex-direction: column; 
+                gap: 50px !important;
+                padding: 60px 20px !important;
+                align-items: center;
+            }
+
+            /* COIN FIX */
+            .exhibit-box > img { 
+                max-width: 260px !important; 
+                border-radius: 50% !important; 
+            }
+
+            /* GOLDBACK FIX */
+            .goldback-pair {
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .goldback-pair img {
+                width: 48% !important; 
+                max-width: 160px !important; 
+                border-radius: 2px !important; /* THE OVAL KILLER */
+                height: auto !important; 
+                border: 1px solid rgba(0, 229, 255, 0.2);
+                padding: 4px;
+            }
+
             .section-title { font-size: 0.95rem; letter-spacing: 2px; }
             .body-text { 
                 text-align: left; 
@@ -285,6 +346,7 @@
             .link-hub { flex-direction: column; align-items: center; padding: 50px 20px; }
             .archive-btn { width: 100%; min-width: unset; }
         }
+
     </style>
 </head>
 <body>
@@ -294,25 +356,27 @@
     <h1>PRETTY COINZ // THE BEAUTY INDEX</h1>
 </header>
 
-<section class="hero-exhibit" style="display: flex; justify-content: center; gap: 40px; padding: 100px 20px;">
+<section class="hero-exhibit">
     <!-- THE ANCHOR (BEAL) -->
-    <div class="exhibit-box" style="text-align: center;">
+    <div class="exhibit-box">
         <span class="sub-label">// The Sovereign Anchor</span>
-        <img src="img/Anchor.jpg" class="hero-img" style="max-width: 300px; border-radius: 50%;">
+        <img src="img/Anchor.jpg" class="hero-img">
     </div>
 
     <!-- THE RESERVE (GOLDBACK) -->
-    <div class="exhibit-box" style="text-align: center;">
+    <div class="exhibit-box">
         <span class="sub-label">// The Basal Reserve</span>
-        <div style="display: flex; gap: 10px;">
-            <img src="img/goldback_front.jpg" class="hero-img" style="max-width: 180px; border-radius: 4px;">
-            <img src="img/goldback_back.jpg" style="max-width: 180px; border-radius: 4px;">
+        <div class="goldback-pair">
+            <img src="img/goldback_front.jpg">
+            <img src="img/goldback_back.jpg">
         </div>
     </div>
 </section>
 
+
+<!-- THE PROGRESS BAR: YOUR LIVE SIGNAL -->
 <div class="progress-container">
-    <span class="progress-label"> CAP_Milestone: #13 // Complete: 20%</span>
+    <span class="progress-label">CAP_MILESTONE: #13 // STATUS: 20% // ACTIVE_SIGNAL</span>
     <div class="progress-bar-bg">
         <div class="progress-fill"></div>
     </div>
@@ -347,7 +411,7 @@
     <div class="section-title">🏛️ The Sovereign Anchor</div>
     <span class="sub-label">Physical Milestone Signaling</span>
     <div class="body-text">
-        This project concludes with the <strong>Beal Benchmark</strong>: an inquiry spanning over a decade aimed at independently surpassing the valuation of the official Beal Prize. The archive’s first chapter will close with the acquisition of the <a href="https://www.icollecteverything.com/db/custom/1157864/coin/95071/" target="_blank" class="protocol-link highlight">Beal Mountain Proof</a>. This anchor closes the loop between the Archivist’s award-winning mathematical theory on the <strong>Beal Conjecture</strong> (Westfair Milli Award) and physical reality.
+        This project concludes with the <strong>Beal Benchmark</strong>: an inquiry spanning over a decade aimed at independently surpassing the valuation of the official Beal Prize. The archive’s first chapter will close with the acquisition of the <a href="https://www.icollecteverything.com/db/custom/1157864/coin/95071/" target="_blank" class="gold-link">Beal Mountain Proof</a> This anchor closes the loop between the Archivist’s award-winning mathematical theory on the <strong>Beal Conjecture</strong> (Westfair Milli Award) and physical reality.
     </div>
 </div>
 
