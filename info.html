@@ -364,6 +364,15 @@
             .archive-btn { width: 100%; min-width: unset; }
         }
 
+        @media screen and (max-width: 768px) {
+    .body-text {
+        text-align: left !important;
+        text-justify: none !important;
+        hyphens: auto; /* Helps break long words like "methodology" */
+    }
+}
+
+
 /* GLOBAL LINK PERSISTENCE */
 a.protocol-link, a.gold-link {
     color: var(--neon-blue) !important;
