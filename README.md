@@ -22,18 +22,19 @@ Named after the [Beal Conjecture](https://www.bealconjecture.com/), this benchma
 ---
 
 ### [ 📈 THE TRACKER: AESTHETIC ALPHA ]
-**The Beauty Index** is a specialized numismatic study inspired by archival analysis of artistic merit. It serves as a functional bridge between digital brokerage milestones and physical specimens.
+**The Beauty Index** is a specialized numismatic study evaluating the capacity for **aesthetic assets** to retain value alongside traditional benchmarks. 
 
-In this system, **1 Coin = 1 Personal Financial Benchmark**. Supported by a disciplined investment strategy featured in a **New York Times / TIAA ad campaign**, this portfolio affords the freedom to pursue specialized research.
+The system is supported by a disciplined, **automated investment strategy** for which I was interviewed by the **New York Times** as part of a national ad campaign. While the broad-market core remains passive, this study operates within a **Bogleheads framework** by activating a strictly capped **5% allowance** for active research. This ensures the pursuit of visual merit remains a marginal, controlled inquiry that never compromises foundational stability.
 
-*   **Digital Signal:** 10-Year Strategy **([NYT/TIAA Featured Campaign](https://www.nytimes.com/paidpost/tiaa/on-the-right-track-retirement-ready.html#angela-moore))**
-*   **Benchmark Registry:** High-Aesthetic specimens anchoring proprietary private milestones.
-*   **Aesthetic Review:** Evaluative tracking of non-benchmark assets based on **Aesthetic Alpha** and historical performance.
+*   **Digital Signal:** Automated 10-Year Strategy **([NYT/TIAA Featured Campaign](https://www.nytimes.com/paidpost/tiaa/on-the-right-track-retirement-ready.html#angela-moore))**
+*   **Operational Limit:** Strictly capped 5% discretionary allocation (Bogleheads Framework).
+*   **Benchmark Registry:** High-aesthetic specimens anchoring proprietary private milestones.
+*   **Aesthetic Review:** Evaluative tracking of non-benchmark assets based on **Aesthetic Alpha**.
 *   **Protocol:** The Kindness Awareness Campaign (Ben’s Bells Coins) 💎
 
 > **Institutional Note:** While media archives may utilize broader categorical titles (e.g., "Librarian"), this repository maintains signal integrity by noting that these strategic systems were developed during the Principal Investigator's tenure as a **Paralibrarian**.
-
 ---
+
 
 ### [ 🧪 THE INQUIRY: POSITIVE ZERO IN PRACTICE ]
 This repository and its sister archive, **TMA**, serve as independent field tests for the **Positive Zero Theory**. This hypothesis explores the inverse relationship between the visibility of a kind act and its intrinsic signal strength.
@@ -44,6 +45,10 @@ This repository and its sister archive, **TMA**, serve as independent field test
 
 **Note on Limits:**
 As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests that **Signal Integrity ($S$)** grows infinitely higher each time an individual commits a **Quiet Act of Kindness ($K$)** without the requirement of **Public Visibility ($V$).**
+
+*   **Pretty Coinz Protocol:** The **Kindness Awareness Campaign** (Ben’s Bells). This numismatic application tests the formula through quiet **High-Aesthetic Specimen** releases and institutional goodwill.
+*   **The Moore Archive (TMA) Protocol:** **The Positive Zero Campaign**. A **geospatial application** testing the formula through anonymous physical artifact drops. Participants are requested to perform a "Positive Zero" act—a quiet act of kindness.
+
 
 ---
 
