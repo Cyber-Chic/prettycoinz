@@ -23,7 +23,7 @@ Named after the [Beal Conjecture](https://www.bealconjecture.com/), this benchma
 
 *   **The Math:** This project honors the principal investigator's recreational research into the Beal Conjecture. Originally published in the **CMC3 Proceedings** (19th Annual Lake Tahoe Conference), the work was subsequently featured in the **MAA 100th Anniversary Celebration** at MathFest and is the recipient of the **Westfair Milli Award**.
 *   **The Asset:** The **Beal Mountain Proof** is an aesthetic silver specimen chosen as the definitive "Physical Signal" for our internal valuation targets.
-*   **The Trajectory:** This **10-Year Inquiry** aims to independently match the valuation of the official Beal Prize through private portfolio growth—celebrating the "Terminal Milestone" of the study.
+*   **The Trajectory:** This **10-Year Inquiry** aims to independently exceed the valuation of the official Beal Prize through private portfolio growth—celebrating the "Terminal Milestone" of the study.
 
 ---
 
