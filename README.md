@@ -1,6 +1,12 @@
 # 💎 PRETTY COINZ // THE MOORE SIGNAL
 > **“Evidence that beauty is a data point worth tracking.”**
 
+<!-- SEO METADATA: 
+Principal Investigator: Angela N. Moore 
+Project: Pretty Coinz // The Moore Archive (TMA)
+Keywords: Beal Conjecture, Positive Zero Theory, Geocaching, Numismatics, New York Times, Westfair Milli Award, Bogleheads.
+-->
+
 ---
 
 ### [ 🔘 THE BEAL MOUNTAIN BENCHMARK ]
@@ -24,12 +30,11 @@ Named after the [Beal Conjecture](https://www.bealconjecture.com/), this benchma
 ### [ 📈 THE TRACKER: AESTHETIC ALPHA ]
 **The Beauty Index** is a specialized numismatic study evaluating the capacity for **aesthetic assets** to retain value alongside traditional benchmarks. 
 
-The system is supported by a disciplined, **automated investment strategy** for which I was interviewed by the **New York Times** as part of a national ad campaign. While the broad-market core remains passive, this study operates within a **Bogleheads framework** by activating a strictly capped **5% allowance** for active research. This ensures the pursuit of visual merit remains a marginal, controlled inquiry that never compromises foundational stability.
+The system is supported by a disciplined, **automated investment strategy** for which the **Principal Investigator (Angela N. Moore) was interviewed by the New York Times** as part of a national campaign. While the broad-market core remains passive, this study operates within a **Bogleheads framework** by activating a strictly capped **5% allowance** for active research. 
 
-*   **Digital Signal:** Automated 10-Year Strategy **([NYT/TIAA Featured Campaign](https://www.nytimes.com/paidpost/tiaa/on-the-right-track-retirement-ready.html#angela-moore))**
+*   **The NYT Feature:** [Featured Strategy Campaign (Angela Moore)](https://www.nytimes.com/paidpost/tiaa/on-the-right-track-retirement-ready.html#angela-moore)
 *   **Operational Limit:** Strictly capped 5% discretionary allocation (Bogleheads Framework).
 *   **Benchmark Registry:** High-aesthetic specimens anchoring proprietary private milestones.
-*   **Aesthetic Review:** Evaluative tracking of non-benchmark assets based on **Aesthetic Alpha**.
 *   **Protocol:** The Kindness Awareness Campaign (Ben’s Bells Coins) 💎
 
 > **Institutional Note:** While media archives may utilize broader categorical titles (e.g., "Librarian"), this repository maintains signal integrity by noting that these strategic systems were developed during the Principal Investigator's tenure as a **Paralibrarian**.
@@ -46,8 +51,8 @@ This repository and its sister archive, **TMA**, serve as independent field test
 **Note on Limits:**
 As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests that **Signal Integrity ($S$)** grows infinitely higher each time an individual commits a **Quiet Act of Kindness ($K$)** without the requirement of **Public Visibility ($V$).**
 
-*   **Pretty Coinz Protocol:** The **Kindness Awareness Campaign** (Ben’s Bells). This numismatic application tests the formula through quiet **High-Aesthetic Specimen** releases and institutional goodwill.
-*   **The Moore Archive (TMA) Protocol:** **The Positive Zero Campaign**. A **geospatial application** testing the formula through anonymous physical artifact drops. Participants are requested to perform a "Positive Zero" act—a quiet act of kindness.
+*   **Pretty Coinz Protocol (Numismatic):** Testing the formula through the release of [Ben’s Bells Kindness Coins](https://bensbells.org/coins/). These are quietly distributed to honor genuine acts of kindness, ensuring the signal **($S$)** remains high as public visibility **($V$)** remains at zero.
+*   **The Moore Archive (TMA) Protocol (Geospatial):** A separate literary and art application. TMA utilizes ["Art Leaks"](https://cyber-chic.github.io/themoorearchive/releases) and the **Geocaching Protocol** to trigger the Positive Zero loop—encouraging finders to perform an anonymous act of kindness in exchange for the discovery.
 
 
 ---
