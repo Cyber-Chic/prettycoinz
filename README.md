@@ -70,6 +70,23 @@ As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests 
 **Technical Architecture:** This ecosystem was created through an exchange between **Angela N. Moore** and the Gemini family of models—blending AI precision with a human eye for **Sovereign Numismatics.**
 
 ---
+
+# Sponsors
+### [ 🛰️ PROJECT SUBSYSTEM ]
+**Part of the [Moore Archive](https://emaze.me/tma) Creative Ecosystem.**  
+*Bridging the gap between digital code and physical reality.*
+
+**EXPLORE THE NETWORK:**
+*   **🔭 RESEARCH:** [NASA Exoplanet Watch Data](https://github.com/Cyber-Chic/nasa)
+*   **🧪 ARCHIVE:** [The Moore Archive | Physical Artifact Hunt](https://emaze.me/tma)
+*   **📡 TERMINAL:** [Cyber-Chic Home & Protocols](https://github.com/Cyber-Chic)
+
+**[ ☕ MISSION SUSTENANCE ]**
+Sponsorships support my full creative ecosystem—from public-facing research and citizen science to the physical art drops of The Moore Archive.  
+[**➡️ SUPPORT THE JOURNEY VIA PAYPAL**](https://www.paypal.com/donate/?hosted_button_id=CJVWS45KF46ZE)
+
+---
+
 **ANGELA N. MOORE // SIGNAL STATUS: 🟢 NOMINAL**
 **DISCLAIMER:** *This is a personal creative study in aesthetic asset tracking. Benchmarks are internal and proprietary. This does not constitute financial advice.*
 
