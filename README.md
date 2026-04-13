@@ -58,7 +58,6 @@ As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests 
 > **TECHNICAL PROVENANCE:** This protocol originates from the Principal Investigator's refereed inquiry, *“Beal’s Conjecture vs. Positive Zero”* (CMC3 Proceedings). While traditional number theory treats division by zero as undefined, this model adopts the **IEEE 754 standard**, which allows division by **Positive Zero (+0)** to result in **Positive Infinity ($+\infty$)**. 
 >
 > **THE SIGNAL ETHOS:** In this framework, as the **Public Visibility ($V$)** of kind deeds committed on behalf of this archive approaches zero, the **Signal Integrity ($S$)** of these acts and the archive becomes infinitely more powerful. This defines **Positive Zero** not as an absence of value, but as a state of maximum purity.
-.
 
 ---
 
