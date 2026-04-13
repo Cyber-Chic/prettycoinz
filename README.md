@@ -73,6 +73,13 @@ As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests 
 ### \[ 🛰️ SYNTHETIC CO-PILOT ]
 **Technical Architecture:** This ecosystem was created through an exchange between **Angela N. Moore** and the Gemini family of models—blending AI precision with a human eye for **Sovereign Numismatics.**
 
+<!-- ARCHIVIST'S KEY: HOW TO EXPLAIN THE SIGNAL LIMIT 
+- LIM = The "Motion." As Visibility (V) turns down toward zero...
+- K/V = The "Ratio." Kindness over Visibility.
+- +INF = The "Signal." The integrity becomes infinitely powerful.
+- IEEE 754 = The "Permission." Computers allow division  by +0 to reach +Inf.
+-->
+
 ---
 
 # Sponsors
