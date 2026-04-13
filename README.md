@@ -40,22 +40,25 @@ The system is supported by a disciplined, **automated investment strategy** for 
 > **Institutional Note:** While media archives may utilize broader categorical titles (e.g., "Librarian"), this repository maintains signal integrity by noting that these strategic systems were developed during the Principal Investigator's tenure as a **Paralibrarian**.
 ---
 
-
 ### [ 🧪 THE INQUIRY: POSITIVE ZERO IN PRACTICE ]
-This repository and its sister archive, **TMA**, serve as independent field tests for the **Positive Zero Theory**. This hypothesis explores the inverse relationship between the visibility of a kind act and its intrinsic signal strength.
+**The Archive serves as an independent field test for the Positive Zero Theory: an exploration of the inverse relationship between the visibility of an act and its intrinsic signal strength.**
 
-**The Formula:**
-> ## $S = \frac{K}{V}$
-> *Where **S** (Signal Integrity) reaches its highest potential as **V** (Public Visibility) approaches zero.*
+> ## $$\lim_{V \to 0^+} \frac{K}{V} = +\infty$$
+> *Where **Signal Integrity (S)** reaches its highest potential as **Public Visibility (V)** approaches zero.*
 
-**Note on Limits:**
+**The Calculus of Kindness:**  
 As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests that **Signal Integrity ($S$)** grows infinitely higher each time an individual commits a **Quiet Act of Kindness ($K$)** without the requirement of **Public Visibility ($V$).**
 
-*   **Pretty Coinz Protocol (Numismatic):** Testing the formula through the release of [Ben’s Bells Kindness Coins](https://bensbells.org/coins/). These are quietly distributed to honor genuine acts of kindness, ensuring the signal **($S$)** remains high as public visibility **($V$)** remains at zero.
+*   **[Pretty Coinz Protocol](https://cyber-chic.github.io/prettycoinz/info) (Numismatic):** Testing the formula through the release of [Ben’s Bells Kindness Coins](https://bensbells.org/coins/). These are quietly distributed to honor genuine acts of kindness, ensuring the signal **($S$)** remains high as public visibility **($V$)** remains at zero.
+
+
 *   **The Moore Archive (TMA) Protocol (Geospatial):** A separate literary and art application. TMA utilizes ["Art Leaks"](https://cyber-chic.github.io/themoorearchive/releases) and the **Geocaching Protocol** to trigger the Positive Zero loop—encouraging finders to perform an anonymous act of kindness in exchange for the discovery.
 
 > [!NOTE]
-> **TECHNICAL PROVENANCE:** This model originates from the *“Beal’s Conjecture vs. Positive Zero”* inquiry (Refereed Proceedings: CMC3). While traditional number theory treats division by zero as undefined, this protocol utilizes the **Limit ($V \to 0$)** to map the "Moral Singularity" of anonymous intent—defining **Positive Zero** as a state of maximum purity rather than an absence of value.
+> **TECHNICAL PROVENANCE:** This protocol originates from the Principal Investigator's refereed inquiry, *“Beal’s Conjecture vs. Positive Zero”* (CMC3 Proceedings). While traditional number theory treats division by zero as undefined, this model adopts the **IEEE 754 standard**, which allows division by **Positive Zero (+0)** to result in **Positive Infinity ($+\infty$)**. 
+>
+> **THE SIGNAL ETHOS:** In this framework, as the **Public Visibility ($V$)** of kind deeds committed on behalf of this archive approaches zero, the **Signal Integrity ($S$)** of these acts and the archive becomes infinitely more powerful. This defines **Positive Zero** not as an absence of value, but as a state of maximum purity.
+.
 
 ---
 
