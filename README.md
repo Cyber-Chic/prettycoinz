@@ -54,6 +54,8 @@ As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests 
 *   **Pretty Coinz Protocol (Numismatic):** Testing the formula through the release of [Ben’s Bells Kindness Coins](https://bensbells.org/coins/). These are quietly distributed to honor genuine acts of kindness, ensuring the signal **($S$)** remains high as public visibility **($V$)** remains at zero.
 *   **The Moore Archive (TMA) Protocol (Geospatial):** A separate literary and art application. TMA utilizes ["Art Leaks"](https://cyber-chic.github.io/themoorearchive/releases) and the **Geocaching Protocol** to trigger the Positive Zero loop—encouraging finders to perform an anonymous act of kindness in exchange for the discovery.
 
+> [!NOTE]
+> **TECHNICAL PROVENANCE:** This model originates from the *“Beal’s Conjecture vs. Positive Zero”* inquiry (Refereed Proceedings: CMC3). While traditional number theory treats division by zero as undefined, this protocol utilizes the **Limit ($V \to 0$)** to map the "Moral Singularity" of anonymous intent—defining **Positive Zero** as a state of maximum purity rather than an absence of value.
 
 ---
 
