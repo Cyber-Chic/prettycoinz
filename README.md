@@ -82,23 +82,29 @@ As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests 
 
 ---
 
-# Sponsors
-### [ 🛰️ PROJECT SUBSYSTEM ]
-**Part of the [Moore Archive](https://emaze.me/tma) Creative Ecosystem.**  
+### [ 🛰️ ARCHIVE_HUB ]
+**The Moore Archive Creative Ecosystem.**  
 *Bridging the gap between digital code and physical reality.*
 
-**EXPLORE THE NETWORK:**
-*   **🔭 RESEARCH:** [NASA Exoplanet Watch Data](https://github.com/Cyber-Chic/nasa)
-*   **🧪 ARCHIVE:** [The Moore Archive | Physical Artifact Hunt](https://emaze.me/tma)
-*   **📡 TERMINAL:** [Cyber-Chic Home & Protocols](https://github.com/Cyber-Chic)
+This hub serves as the central directory for the independent research and creative inquiries hosted across the Creative Technologist’s collective GitHub repositories.  
 
-**[ ☕ MISSION SUSTENANCE ]**
-Sponsorships support my full creative ecosystem—from public-facing research and citizen science to the physical art drops of The Moore Archive.  
-[**➡️ SUPPORT THE JOURNEY VIA PAYPAL**](https://www.paypal.com/donate/?hosted_button_id=CJVWS45KF46ZE)
+**Inquiries are accepted for the following specialized engagements:**
+*   **Guest Speaking:** "The NASA Citizen Scientist: A Creative Volunteer’s Experience."
+*   **Literary Talks:** "The Art of the Dispatch: Contemporary Haikus as Visual Artifacts."
+*   **Creative Process:** "Aural Decryption: Transforming Soundscapes into Micro-Poetry."
+*   **Literary Advocacy:** "The Quiet Signal: Fostering Community Literacy through Independent Artifact Drops."
+
+**➡️ CONTACT:** [themoorearchive@proton.me](mailto:themoorearchive@proton.me)
 
 ---
+**EXPLORE:** [📡 FULL GITHUB TERMINAL (Collective Repositories)](https://github.com/Cyber-Chic)
 
-**ANGELA N. MOORE // SIGNAL STATUS: 🟢 NOMINAL**
-**DISCLAIMER:** *This is a personal creative study in aesthetic asset tracking. Benchmarks are internal and proprietary. This does not constitute financial advice.*
+<!-- THE MOORE ARCHIVE LLC // SIGNAL STATUS: 🟢 NOMINAL // ARMOR_ACTIVE -->
+<!-- DISCLAIMER: This is a proprietary research inquiry managed by The Moore Archive LLC. Content is for educational/artistic purposes only and does not constitute financial advice. -->
+
+**ANGELA N. MOORE // SIGNAL STATUS: 🟢 NOMINAL**  
+**DISCLAIMER:** *This is a personal creative study. Benchmarks are internal and proprietary. This does not constitute financial advice.*
+
+> *“I want to live as though I traveled back in time... To this very moment. And take in all the beauty I couldn’t see the first time around.”*
 
 
