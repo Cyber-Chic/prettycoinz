@@ -16,14 +16,15 @@ Keywords: Beal Conjecture, Positive Zero Theory, Geocaching, Numismatics, New Yo
 
 | [ THE BEAL BENCHMARK SPECIMEN ] |
 | :---: |
-| <img src="https://cyber-chic.github.io/prettycoinz/img/Anchor.jpg" width="350" title="Targeting the Beal Mountain Valuation Milestone" alt="The Beal Proof specimen: An asset targeting the $1,000,000 Beal Prize valuation milestone." style="image-rendering: smooth; display: block; border: 2px solid #eee; margin: auto;"> |
+| <img src="https://cyber-chic.github.io/prettycoinz/img/Anchor.jpg" width="350" title="Targeting the Sovereign Anchor Milestone." alt="The Beal Proof specimen: An aesthetic anchor for the study's terminal milestone." style="image-rendering: smooth; display: block; border: 2px solid #eee; margin: auto;"> |
 | **[ SIGNAL_BACK: BEAL PROOF]** |
 
 Named after the [Beal Conjecture](https://www.bealconjecture.com/), this benchmark serves as a personal "Sovereign Anchor." This is a study in **Capital Persistence**, where a disciplined personal investment trajectory is validated by a physical specimen.
 
 *   **The Math:** This project honors the principal investigator's recreational research into the Beal Conjecture. Originally published in the **CMC3 Proceedings** (19th Annual Lake Tahoe Conference), the work was subsequently featured in the **MAA 100th Anniversary Celebration** at MathFest and is the recipient of the **Westfair Milli Award**.
-*   **The Asset:** The **Beal Mountain Proof** is an aesthetic silver specimen chosen as the definitive "Physical Signal" for our internal valuation targets.
-*   **The Trajectory:** This **10-Year Inquiry** aims to independently exceed the valuation of the official Beal Prize through private portfolio growth—celebrating the "Terminal Milestone" of the study.
+*   **The Asset:** The **Beal Mountain Proof** is an aesthetic silver specimen chosen as the definitive 'Physical Signal' for our internal research targets.
+*   **The Trajectory:** This **10-Year Inquiry** utilizes the Beal Prize as a Strategic Reference Point for the project—marking the 'Terminal Milestone' and the formal conclusion of the study.
+
 
 ---
 
