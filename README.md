@@ -19,7 +19,7 @@ Keywords: Beal Conjecture, Positive Zero Theory, Geocaching, Numismatics, New Yo
 | <img src="https://cyber-chic.github.io/prettycoinz/img/Anchor.jpg" width="350" title="Targeting the Sovereign Anchor Milestone." alt="The Beal Proof specimen: An aesthetic anchor for the study's terminal milestone." style="image-rendering: smooth; display: block; border: 2px solid #eee; margin: auto;"> |
 | **[ SIGNAL_BACK: BEAL PROOF]** |
 
-Named after the [Beal Conjecture](https://www.bealconjecture.com/), this benchmark serves as a personal "Sovereign Anchor." This is a study in **Capital Persistence**, where a disciplined personal investment trajectory is validated by a physical specimen.
+Named after the [Beal Conjecture](https://www.bealconjecture.com/), this benchmark serves as a personal "Sovereign Anchor." This is a study in **Aesthetic Persistence**, where a disciplined personal investment trajectory is validated by a physical specimen.
 
 *   **The Math:** This project honors the principal investigator's recreational research into the Beal Conjecture. Originally published in the **CMC3 Proceedings** (19th Annual Lake Tahoe Conference), the work was subsequently featured in the **MAA 100th Anniversary Celebration** at MathFest and is the recipient of the **Westfair Milli Award**.
 *   **The Asset:** The **Beal Mountain Proof** is an aesthetic silver specimen chosen as the definitive 'Physical Signal' for our internal research targets.
@@ -80,6 +80,17 @@ As **$V \to 0$**, the value of **$S$** tends toward **Infinity**. This suggests 
 - +INF = The "Signal." The integrity becomes infinitely powerful.
 - IEEE 754 = The "Permission." Computers allow division  by +0 to reach +Inf.
 -->
+
+---
+
+### [ 🛡️ PROJECT SCOPE & DISCLOSURE ]
+**Operational Status:** Independent Creative Inquiry  
+**Managing Entity:** The Moore Archive <!-- LLC --> (CT)
+**Jurisdiction:** Connecticut, USA
+
+*   **Non-Commercial Research:** This repository is an independent study in aesthetic numismatics and recreational mathematics. It does not provide, offer, or facilitate professional financial advice or asset management.
+*   **Decoupled Assets:** All broader strategic planning (as featured in the New York Times) is managed through strictly regulated, institutional and statutory frameworks (including ERISA-governed plans). These assets are entirely decoupled from this creative ecosystem.
+*   **Limitation of Liability:** To the maximum extent permitted by law, the Artist <!-- and The Moore Archive LLC --> shall not be liable for any indirect or consequential damages arising from the observation of this study.
 
 ---
 
