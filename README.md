@@ -67,15 +67,15 @@ This study evaluates numismatics from a purely **visual and historical lens**, t
 
 ---
 <div align="center">
+  <p><strong>ANGELA N. MOORE // SIGNAL STATUS: 🟢 NOMINAL</strong></p>
+  
+  <p><em>“To architect a life where data has a soul, and science has a signature.”</em></p>
+  
+  <hr width="50%">
 
-**ANGELA N. MOORE // SIGNAL STATUS: 🟢 NOMINAL**  
+  <p><small><strong>DISCLAIMER:</strong> This is a personal creative study. Benchmarks are internal and proprietary. This does not constitute financial advice.</small></p>
 
-> *“To architect a life where data has a soul, and science has a signature.”*
+  <p><em>“I want to live as though I traveled back in time... To this very moment. And take in all the beauty I couldn’t see the first time around.”</em></p>
 </div>
-
-
-**DISCLAIMER:** *This is a personal creative study. Benchmarks are internal and proprietary. This does not constitute financial advice.*
-
-> *“I want to live as though I traveled back in time... To this very moment. And take in all the beauty I couldn’t see the first time around.”*
 
 
