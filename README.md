@@ -9,7 +9,7 @@
 
 | [ THE BEAL BENCHMARK SPECIMEN ] |
 | :---: |
-| <img src="https://cyber-chic.github.io/prettycoinz/img/Anchor.jpg" width="300" style="border: 2px solid #eee; border-radius: 2px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);"> |
+| <img src="https://cyber-chic.github.io/prettycoinz/img/Anchor.jpg" width="300" alt="The Beal Proof specimen: A physical anchor for a 10-year research milestone. Image source: EBAY Secondary Market Archive." style="border: 2px solid #eee; border-radius: 2px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);"> |
 | **[ SIGNAL_STATUS: IN_PROGRESS ]** |
 
 *   **The Sovereign Anchor:** The **Beal Mountain Proof** is the terminal specimen of this inquiry. It was selected to represent the physical transition from the Principal Investigator's initial research into the **Positive Zero Protocol**.
