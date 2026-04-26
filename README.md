@@ -13,7 +13,7 @@
 | **[ SIGNAL_STATUS: IN_PROGRESS ]** |
 
 *   **The Sovereign Anchor:** The **Beal Mountain Proof** is the terminal specimen of this inquiry. It was selected to represent the physical transition from the Principal Investigator's initial research into the **Positive Zero Protocol**.
-*   **The Weight of the Signal:** This specimen serves as the physical proof that a hidden research goal has been surpassed. By anchoring a private milestone to a public artifact, we validate the signal's integrity ($S$) while maintaining the required "Zero Visibility" ($V$) of the internal research.
+*   **The Weight of the Signal:** This specimen will serve as the physical proof that a hidden research goal has been surpassed.
 
 ---
 
