@@ -75,7 +75,7 @@ This study evaluates numismatics from a purely **visual and historical lens**, t
 **SIGNAL STATUS: 🟢 NOMINAL**  
 **PI: A N MOORE // (PENDING) THE MOORE SIGNAL ARCHIVE LLC**  
 
-> *“I want to live as though I traveled back in time... To this very moment.”
+> “I want to live as though I traveled back in time... To this very moment.”
 
 ---
 > [!IMPORTANT]
