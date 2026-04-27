@@ -59,24 +59,24 @@ This study evaluates numismatics from a purely **visual and historical lens**, t
 ---
 
 ### [ 🛰️ ARCHIVE_HUB ]
-**The Moore Signal Archive Creative Ecosystem.**  
+**The Moore Signal Archive // Independent Inquiry Management**  
 *Bridging the gap between digital code and physical reality.*
+
+**Engagements are accepted for the following specialized inquiries:**
+*   **Guest Speaking:** "The NASA Citizen Scientist: A Creative Volunteer’s Experience."
+*   **Literary Talks:** "The Art of the Dispatch: Contemporary Haikus as Visual Artifacts."
+*   **Creative Process:** "Aural Decryption: Transforming Soundscapes into Micro-Poetry."
+*   **Literary Advocacy:** "The Quiet Signal: Fostering Community Literacy through Independent Artifact Drops."
 
 **➡️ CONTACT:** [themoorearchive@proton.me](mailto:themoorearchive@proton.me)  
 **OFFICE:** 2389 Main St, Ste 100, Glastonbury, CT 06033
 
 ---
-<div align="center">
-  <p><strong>ANGELA N. MOORE // SIGNAL STATUS: 🟢 NOMINAL</strong></p>
-  
-  <p><em>“To architect a life where data has a soul, and science has a signature.”</em></p>
-  
-  <hr width="50%">
+**SIGNAL STATUS: 🟢 NOMINAL**  
+**PI: A N MOORE // (PENDING) THE MOORE SIGNAL ARCHIVE LLC**  
 
-  <p><small><strong>DISCLAIMER:</strong> This is a personal creative study. Benchmarks are internal and proprietary. This does not constitute financial advice.</small></p>
+> *“To architect a life where data has a soul, and science has a signature.”*
 
-  <p><em>“I want to live as though I traveled back in time... To this very moment. And take in all the beauty I couldn’t see the first time around.”</em></p>
-</div>
-
-
-
+---
+> [!IMPORTANT]
+> **DISCLAIMER:** This is a personal creative study. Benchmarks are internal and proprietary. This does not constitute financial advice. *“I want to live as though I traveled back in time... To this very moment. And take in all the beauty I couldn’t see the first time around.”*
