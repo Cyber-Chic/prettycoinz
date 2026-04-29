@@ -50,7 +50,7 @@ This study evaluates numismatics from a purely **visual and historical lens**, t
 ---
 
 ### [ 🛡️ SCOPE & DISCLOSURE ]
-**Managing Entity:** The Moore Signal Archive (CT)
+**Managing Entity:** The Moore Signal Archive LLC (CT)
 
 *   **Independent Research:** This is a non-commercial study. **It does not provide financial advice.** 
 *   **Decoupled Assets:** All institutional retirement planning (as featured in the **New York Times**) is managed through statutory frameworks entirely separate from this creative inquiry.
@@ -59,7 +59,7 @@ This study evaluates numismatics from a purely **visual and historical lens**, t
 ---
 
 ### [ 🛰️ ARCHIVE_HUB ]
-**The Moore Signal Archive // Independent Inquiry Management**  
+**The Moore Signal Archive LLC // Independent Inquiry Management**  
 *Bridging the gap between digital code and physical reality.*
 
 **Engagements are accepted for the following specialized inquiries:**
@@ -79,4 +79,4 @@ This study evaluates numismatics from a purely **visual and historical lens**, t
 
 ---
 > [!IMPORTANT]
-> **DISCLAIMER:** This is a personal creative study. Benchmarks are internal and proprietary. This does not constitute financial advice. *“I want to live as though I traveled back in time... To this very moment. And take in all the beauty I couldn’t see the first time around.”*
+> **DISCLAIMER:** This is a personal creative study. Benchmarks are internal and proprietary. This does not constitute financial advice.
