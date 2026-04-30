@@ -6,7 +6,7 @@
 ---
 
 ### [ 🔘 THE BEAL MOUNTAIN BENCHMARK ]
-**The Objective:** To achieve a 1:1 synchronization between the **Conclusion of a Private Research Cycle** and the acquisition of the physical **[Beal Mountain Proof](https://www.icollecteverything.com/db/custom/1157864/coin/95071/).**
+**The Objective:** To achieve a 1:1 synchronization between the **Conclusion of a Private Research Cycle** and the acquisition of the physical **[Beal Mountain Proof](https://cyber-chic.github.io/prettycoinz/info).**
 
 
 | [ THE BEAL BENCHMARK SPECIMEN ] |
@@ -16,6 +16,21 @@
 
 *   **The Sovereign Anchor:** The **Beal Mountain Proof** is the terminal specimen of this inquiry. It was selected to represent the physical transition from the Principal Investigator's initial research into the **Positive Zero Protocol**.
 *   **The Weight of the Signal:** This specimen will serve as the physical proof that a hidden research goal has been surpassed.
+
+
+### 🛰️ [ MSVI-001 ] // THE BEAL BENCHMARK
+**TARGETED SYNCHRONIZATION: IN_PROGRESS**
+
+> [!TIP]
+> **VERIFICATION NOTE:** This node tracks the 1:1 synchronization between the Archive's research logic and the acquisition of the physical **Beal Mountain Proof**.
+
+
+| METRIC | DATA POINT |
+| :--- | :--- |
+| **OFFICIAL_RECORD** | [iCollect Specimen #1157864](https://www.icollecteverything.com/db/custom/1157864/coin/95071/) |
+| **SYNC_TARGET** | 2026-04-25 |
+| **METHODOLOGY** | Bogleheads / Aesthetic Alpha (5% Cap) |
+| **PI_STATUS** | VETTED (NYT / MILLI AWARD) |
 
 ---
 
