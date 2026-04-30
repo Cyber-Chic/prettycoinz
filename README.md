@@ -1,37 +1,26 @@
-`[ IDENTIFIER: THE MOORE SIGNAL ] [ CLASSIFICATION: RESEARCH ] [ STATUS: NOMINAL ]`
+`[ IDENTIFIER: THE MOORE SIGNAL ]` `[ CLASSIFICATION: RESEARCH ]` `[ STATUS: NOMINAL ]`
 
 # 💎 PRETTY COINZ // THE MOORE SIGNAL
 > **“Evidence that beauty is a data point worth tracking.”**
 
 ---
 
-### [ 🔘 THE BEAL MOUNTAIN BENCHMARK ]
-**The Objective:** To achieve a 1:1 synchronization between the **Conclusion of a Private Research Cycle** and the acquisition of the physical **[Beal Mountain Proof](https://cyber-chic.github.io/prettycoinz/info).**
-
-
-| [ THE BEAL BENCHMARK SPECIMEN ] |
-| :---: |
-| <img src="https://cyber-chic.github.io/prettycoinz/img/Anchor.jpg" width="300" alt="The Beal Proof specimen: A physical anchor for a 10-year research milestone. Image source: EBAY Secondary Market Archive." style="border: 2px solid #eee; border-radius: 2px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);"> |
-| **[ SIGNAL_STATUS: IN_PROGRESS ]** |
-
-*   **The Sovereign Anchor:** The **Beal Mountain Proof** is the terminal specimen of this inquiry. It was selected to represent the physical transition from the Principal Investigator's initial research into the **Positive Zero Protocol**.
-*   **The Weight of the Signal:** This specimen will serve as the physical proof that a hidden research goal has been surpassed.
-
----
-
-### 🛰️ [ MSVI-001 ] // THE BEAL BENCHMARK
+### 🛰️ [ MSVI-001 ] // THE BEAL MOUNTAIN BENCHMARK
 **TARGETED SYNCHRONIZATION: IN_PROGRESS**
+
+<p align="center">
+  <img src="https://cyber-chic.github.io/prettycoinz/img/Anchor.jpg" width="400" alt="The Beal Proof specimen" style="border: 1px solid #d4af37; box-shadow: 0px 10px 30px rgba(0,0,0,0.2); border-radius: 4px;">
+  <br>
+  <code>[ SIGNAL_STATUS: IN_PROGRESS ]</code> • <code>[ SYNC_TARGET: 2026.04.25 ]</code>
+</p>
+
+
+| ARCHIVAL RECORD | METHODOLOGY | PI CREDENTIALS |
+| :--- | :--- | :--- |
+| [iCollect #1157864](https://www.icollecteverything.com/db/custom/1157864/coin/95071/) | Aesthetic Alpha (5% Cap) | NYT / MILLI AWARD |
 
 > [!TIP]
 > **VERIFICATION NOTE:** This node tracks the 1:1 synchronization between the Archive's research logic and the acquisition of the physical **Beal Mountain Proof**.
-
-
-| METRIC | DATA POINT |
-| :--- | :--- |
-| **OFFICIAL_RECORD** | [iCollect Specimen #1157864](https://www.icollecteverything.com/db/custom/1157864/coin/95071/) |
-| **SYNC_TARGET** | 2026-04-25 |
-| **METHODOLOGY** | Bogleheads / Aesthetic Alpha (5% Cap) |
-| **PI_STATUS** | VETTED (NYT / MILLI AWARD) |
 
 ---
 
