@@ -9,7 +9,7 @@
 **TARGETED SYNCHRONIZATION: IN_PROGRESS**
 
 <p align="center">
-  <img src="https://cyber-chic.github.io/prettycoinz/img/Anchor.jpg" width="400" alt="The Beal Proof specimen" style="border: 1px solid #d4af37; box-shadow: 0px 10px 30px rgba(0,0,0,0.2); border-radius: 4px;">
+  <img src="https://cyber-chic.github.io/prettycoinz/img/Anchor.jpg" width="400" alt="The Beal Proof specimen: A physical anchor for a 10-year research milestone. Image source: EBAY Secondary Market Archive." style="border: 1px solid #d4af37; box-shadow: 0px 10px 30px rgba(0,0,0,0.2); border-radius: 4px;">
   <br>
   <code>[ SIGNAL_STATUS: IN_PROGRESS ]</code> • <code>[ SYNC_TARGET: 2026.04.25 ]</code>
 </p>
