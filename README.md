@@ -1,3 +1,5 @@
+`[ IDENTIFIER: THE MOORE SIGNAL ] [ CLASSIFICATION: RESEARCH ] [ STATUS: NOMINAL ]`
+
 # 💎 PRETTY COINZ // THE MOORE SIGNAL
 > **“Evidence that beauty is a data point worth tracking.”**
 
