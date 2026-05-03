@@ -18,11 +18,12 @@ Pretty Coinz is an independent research project evaluating numismatics through a
 ### [ 🛡️ THE SHIELD ]
 **PRIVATE RESEARCH // NOT FINANCIAL ADVICE**
 
-This is a personal creative study. All benchmarks are internal. This archive does not provide financial advice, sell assets, or manage external funds. 
+This is a personal creative study. All benchmarks are internal. This inquiry is non-commercial and does not provide financial advice or manage external funds. 
 
 **Managing Entity:** The Moore Signal Archive LLC (CT)  
 **Principal Investigator:** A. N. Moore  
-**Contact:** [themoorearchive@proton.me](mailto:themoorearchive@proton.me)  
+**Contact:** [themoorearchive@proton.me](mailto:themoorearchive@proton.me) 
+
 
 ---
 
