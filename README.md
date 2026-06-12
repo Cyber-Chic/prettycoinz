@@ -1,34 +1,35 @@
-# 💎 PRETTY COINZ
-### THE MOORE SIGNAL ARCHIVE // PRIVATE INQUIRY
+# 💎 PRETTY COINZ // THE MOORE SIGNAL
 
-> **“Evidence that beauty is a data point worth tracking.”**
+> *"Evidence that beauty is a data point worth tracking."*
 
----
-
-### [ 🏛️ THE GALLERY ]
-**A STUDY IN AESTHETIC PERSISTENCE**
-
-Pretty Coinz is an independent research project evaluating numismatics through a purely visual and historical lens. 
-
-*   **AESTHETIC SPECIMENS:** Curated simply for their craftsmanship and "Eye Appeal."
-*   **MILESTONE SPECIMENS:** Physical anchors acquired only upon reaching internal research goals.
+`Pretty Coinz` is an independent visual study of numismatics, evaluating unique coinage, paper currency, and alternative tokens through a purely aesthetic lens.
 
 ---
 
-### [ 🛡️ THE SHIELD ]
-**PRIVATE RESEARCH // NOT FINANCIAL ADVICE**
+## 🏛️ Exhibition Focus
 
-This is a personal creative study. All benchmarks are internal. This inquiry is non-commercial and does not provide financial advice or manage external funds. 
+This inquiry treats numismatic artifacts—ranging from modern colorized legal tender and commemorative silver to goldbacks, artistic paper yen, and token charms—as tactile canvases of human value. Specimens are organized into two distinct categories:
+
+*   **Aesthetic Specimens:** Artifacts curated strictly for their design, craftsmanship, vibrant colorization, and striking "eye appeal."
+*   **Milestone Specimens:** Physical anchors acquired exclusively to mark internal project benchmarks.
+
+---
+
+## 🛡️ Project Protocols
+
+*   **Independent Inquiry:** This is a personal creative study focusing on the artistic and material design of physical value tokens. All benchmarks are internal, non-commercial, and asset-focused. 
+*   **No Financial Advice:** This project exists for artistic and visual evaluation only. It does not provide financial advice, market speculation, or external fund management.
+
+---
 
 **Managing Entity:** The Moore Signal Archive LLC (CT)  
 **Principal Investigator:** A. N. Moore  
-**Contact:** [themoorearchive@proton.me](mailto:themoorearchive@proton.me) 
+**Contact:** [themoorearchive@proton.me](mailto:themoorearchive@proton.me)  
+**Signal Status:** 🟢 NOMINAL  
 
+> *"I want to live as though I traveled back in time... To this very moment."*
 
----
-
-> “I want to live as though I traveled back in time... To this very moment.”
-
-**© 2026 THE MOORE SIGNAL ARCHIVE LLC**  
-*2389 Main St, Ste 100, Glastonbury, CT 06033*
-
+***
+<p align="center">
+  <small>© 2026 THE MOORE SIGNAL ARCHIVE LLC <br> 2389 Main St, Ste 100, Glastonbury, CT 06033</small>
+</p>
