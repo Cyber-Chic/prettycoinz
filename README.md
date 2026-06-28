@@ -2,7 +2,7 @@
 
 > *"Evidence that beauty is a data point worth tracking."*
 
-`Pretty Coinz` is an independent visual study of numismatics, evaluating unique coinage, paper currency, and alternative tokens through a purely aesthetic lens.
+`Pretty Coinz` is an independent visual study of numismatics, evaluating unique coinage, paper currency, and alternative tokens through a purely aesthetic lens. Anchored by the Beal Mountain Benchmark, the collection serves as physical evidence of unhurried achievement and the ultimate antithesis of hustle culture.
 
 ---
 
