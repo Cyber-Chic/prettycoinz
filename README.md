@@ -8,7 +8,7 @@
 
 ## 🏛️ Exhibition Focus
 
-This inquiry treats numismatic artifacts—ranging from modern colorized legal tender and commemorative silver to goldbacks, artistic paper yen, and token charms—as tactile canvases of human value. Specimens are organized into two distinct categories:
+This inquiry treats numismatic artifacts—ranging from modern colorized legal tender and commemorative silver to goldbacks, artistic paper yen, token charms, and my own custom-minted cosmic collection pieces—as tactile canvases of human value. Specimens are organized into two distinct categories:
 
 *   **Aesthetic Specimens:** Artifacts curated strictly for their design, craftsmanship, vibrant colorization, and striking "eye appeal."
 *   **Milestone Specimens:** Physical anchors acquired exclusively to mark internal project benchmarks.
