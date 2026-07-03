@@ -3,167 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Moore Signal Archive</title>
+    <title>THE MOORE SIGNAL ARCHIVE</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.7;
-            color: #d1d1de;
-            background-color: #09090f;
-            max-width: 680px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        h1, h3, h4 {
-            color: #ffffff;
-            font-weight: 600;
-            letter-spacing: -0.01em;
-        }
-        h1 {
-            font-size: 1.8em;
-            margin-bottom: 1.5em;
-        }
-        h3 {
-            font-size: 1.25em;
-            margin-top: 2.5em;
-            margin-bottom: 1em;
-            color: #ffffff;
-        }
-        h4 {
-            font-size: 1em;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #88889c;
-            margin: 0 0 1em 0;
-        }
-        p {
-            margin: 0 0 1.2em 0;
-        }
-        strong {
-            color: #ffffff;
-        }
-        em {
-            color: #a0a0b8;
-            font-style: italic;
-        }
-a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-}
-a:hover {
-    color: #4da6ff;
-    text-shadow: 0 0 8px rgba(77, 166, 255, 0.6);
-    text-decoration: none;
-}
-
-        hr {
-            border: 0;
-            border-top: 1px solid #1f1f30;
-            margin: 3em 0;
-        }
-        code {
-            font-family: SFMono-Regular, Consolas, monospace;
-            background-color: #141424;
-            padding: 3px 6px;
-            border-radius: 4px;
-            color: #ff79c6;
-            font-size: 0.9em;
-        }
-        ul {
-            padding-left: 20px;
-            margin: 0 0 1.5em 0;
-        }
-        li {
-            margin-bottom: 0.6em;
-        }
-        .poem-block {
-            margin: 2em 0;
-            padding-left: 15px;
-            border-left: 1px solid #2a2a40;
-        }
-        .poem-lines {
-            font-size: 1.15em;
-            line-height: 1.5;
-            color: #ffffff;
-            margin-bottom: 0.8em;
-        }
-        .poem-lines p {
-            margin: 0.3em 0;
-        }
-        .meta-line {
-            font-size: 0.9em;
-            color: #717185;
-        }
-        .footer-line {
-            font-family: SFMono-Regular, Consolas, monospace;
-            font-size: 0.8em;
-            color: #555566;
-            margin: 0.4em 0;
-        }
+        :root { --bg: #000; --text: #fff; --muted: #888; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background: var(--bg); color: var(--text); font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 1.6; letter-spacing: -.01em; padding: 60px 20px; display: flex; justify-content: center; }
+        .container { max-width: 520px; width: 100%; display: flex; flex-direction: column; gap: 56px; }
+        header, section { display: flex; flex-direction: column; gap: 16px; }
+        h1 { font-size: 15px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; }
+        .subtitle, .item-description { color: var(--muted); font-size: 13.5px; }
+        .matrix-nav, .section-label, .item-meta, footer { font-family: "SF Mono",Monaco,Consolas,monospace; font-size: 11px; text-transform: uppercase; }
+        .matrix-nav { margin-top: 4px; letter-spacing: .05em; }
+        .matrix-nav a { color: var(--muted); text-decoration: none; border-bottom: 1px dashed transparent; transition: all .15s ease; }
+        .matrix-nav a:hover { color: var(--text); border-bottom-color: var(--text); }
+        section { gap: 28px; }
+        .section-label { color: var(--muted); letter-spacing: .1em; border-bottom: 1px dashed #222; padding-bottom: 8px; }
+        .matrix-grid { display: flex; flex-direction: column; gap: 32px; }
+        .matrix-item { display: flex; flex-direction: column; gap: 8px; }
+        .item-header { display: flex; flex-direction: column; gap: 2px; }
+        .item-title { font-weight: 600; font-size: 14px; letter-spacing: .02em; }
+        .item-description a, .ledger-text a { color: var(--text); text-decoration: underline; }
+        .poem-display { font-size: 15px; letter-spacing: .02em; line-height: 1.5; margin: 8px 0; color: #fff; }
+        .ledger-text { color: var(--muted); font-size: 13.5px; line-height: 1.6; }
+        .ledger-text ul { padding-left: 16px; margin: 12px 0; }
+        .ledger-text li { margin-bottom: 6px; }
+        .ledger-link { font-family: "SF Mono",Monaco,Consolas,monospace; font-size: 11px; text-transform: uppercase; margin-top: 12px; }
+        .action-button { display: block; width: 100%; background: var(--text); color: #000; text-align: center; padding: 15px; font-family: "SF Mono",Monaco,Consolas,monospace; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; transition: opacity .15s ease; margin-top: 12px; border-radius: 2px; }
+        .action-button:hover { opacity: .85; }
+        footer { font-size: 10px; color: #555; line-height: 1.8; letter-spacing: .05em; margin-top: 16px; }
     </style>
 </head>
 <body>
+<div class="container">
 
-    <h1>🌌 The Moore Signal Archive</h1>
+    <!-- HEADER SECTION -->
+    <header>
+        <h1>The Moore Signal Archive</h1>
+        <p class="subtitle">A living digital art experiment bridging physical artifacts with the deep cosmos. Original poetry and graphic designs dropped in the wild serve as creative keys to unlock hidden cosmic narratives.</p>
+        <div class="matrix-nav"><a href="https://github.com" target="_blank">[ View Studio Code ]</a></div>
+    </header>
 
-    <p><strong>A Note for the Finder:</strong> You have stepped into a living art experiment—a digital space built to bridge the gap between our physical earth and the deep cosmos.</p>
-
-    <hr>
-
-    <h3>✨ The Art of Looking Up</h3>
-
-    <p>The custom poetry plates dropped in the wild are directly inspired by stargazing through incredible NASA citizen science projects. Real volunteers look at raw telescope imagery to help professional astronomers discover active comets, hidden stars, and cosmic anomalies in the deep night sky.</p>
-
-    <p>Our physical coins feature a brief poetry fragment. If you have found a piece of the archive, enter its unique three-digit number below to unlock the full cosmic poem. If you are a digital explorer just tuning into the signal, select code <code>001</code> to view the first log and explore the rest of the galactic archive:</p>
-
-    <p>👉 <a href="#"><code>[ 0 0 1 ]</code> <strong>[ UNLOCK ARCHIVE ]</strong></a></p>
-
-    <div class="poem-block">
-        <h4>🛰️ COSMOS COLLECTION: COIN #001</h4>
-        
-        <div class="poem-lines">
-            <p><strong>CRAZY LIGHT FLASHES!</strong></p>
-            <p><strong>WITH RAYS BURSTING ROUND THE CORE—</strong></p>
-            <p><strong>ECLIPSING THE SCENE...</strong></p>
+    <!-- 01 // EXHIBITION SCOPE -->
+    <section>
+        <div class="section-label">01 // The Art of Looking Up</div>
+        <div class="matrix-grid">
+            <div class="matrix-item">
+                <div class="item-header">
+                    <div class="item-title">Cosmic Inspiration</div>
+                    <div class="item-meta">Stargazing • Hidden Heavens</div>
+                </div>
+                <p class="item-description">These physical pieces are deeply rooted in the shared human act of stargazing. Inspired by passionate community sky-mapping initiatives like The Daily Minor Planet, they reflect the wonder of eyes gazing through telescopes to discover newborn comets, quiet stars, and beautiful cosmic mysteries in the deep night sky.</p>
+            </div>
+            <div class="matrix-item">
+                <div class="item-header">
+                    <div class="item-title">Decryption Interface</div>
+                    <div class="item-meta">The Finder's Portal</div>
+                </div>
+                <p class="item-description">Custom poetry plates dropped in the wild hold a single poetic phrase. By entering your unique three-digit frequency code below, the full transmission reveals itself. Digital wanderers are warmly invited to choose code <code>001</code> to pull back the curtain on our open archive sample.</p>
+            </div>
         </div>
+    </section>
 
-        <p class="meta-line"><em>— Phenomena: The Daily Minor Planet // Subject ID: 105418882</em></p>
-    </div>
+    <!-- 02 // RECOVERY TERMINAL -->
+    <section>
+        <div class="section-label">02 // Active Recovery Terminal</div>
+        <div class="matrix-grid">
+            <div class="matrix-item">
+                <div class="item-header">
+                    <div class="item-title">Cosmos Collection: Coin #001</div>
+                    <div class="item-meta">Status: Fully Revealed // Restored Inscription</div>
+                </div>
+                <div class="poem-display">
+                    <p><strong>CRAZY LIGHT FLASHES!</strong></p>
+                    <p><strong>WITH RAYS BURSTING ROUND THE CORE—</strong></p>
+                    <p><strong>ECLIPSING THE SCENE...</strong></p>
+                </div>
+                <p class="item-description" style="font-size:12px;font-family:monospace;color:var(--muted)">
+    — Data I Analyzed for NASA // Source of Inspiration: The Daily Minor Planet Citizen Science Project // Subject ID: 105418882
+</p>
 
-    <hr>
+            </div>
+        </div>
+        <a href="#" class="action-button">[ 0 0 1 ] Unlock Archive</a>
+    </section>
 
-    <h3>📡 Join the Exploration</h3>
+    <!-- 03 // JOIN THE EXPLORATION -->
+    <section>
+        <div class="section-label">03 // Join the Exploration</div>
+        <div class="matrix-grid">
+            <div class="matrix-item">
+                <div class="item-header">
+                    <div class="item-title">Tracing the Spark</div>
+                    <div class="item-meta">Interactive Sky Maps • Raw Inspiration</div>
+                </div>
+                <p class="item-description">We invite you to step directly into the cosmic landscapes where these stanzas were born. Wander through the interactive <a href="https://nasa.gov" target="_blank">Live Cosmic Map</a>, explore the original <a href="https://zooniverse.org" target="_blank">Verified Field Data</a> that sparked this poem, or dive into the heart of the active <a href="https://zooniverse.org" target="_blank">The Daily Minor Planet Community Project</a> to chart unknown night skies yourself.</p>
+            </div>
+        </div>
+    </section>
 
-    <p>We invite you to step into the exact fields of deep space where these words came to life. You can view real-time telemetry on the <a href="https://nasa.gov" target="_blank">🛰️ Live Cosmic Map</a>, explore the raw <a href="https://zooniverse.org" target="_blank">🌌 Verified Field Data</a> that inspired this poem, or dive straight into the active <a href="https://zooniverse.org" target="_blank">🛰️ NASA Citizen Science Project Pipeline</a>. Once you arrive at the project hub, you can jump right into the live mapping transmission to start exploring and classifying real deep-space imagery yourself!</p>
+    <!-- 04 // THE POSITIVE ZERO PRINCIPLE -->
+    <section>
+        <div class="section-label">04 // The Positive Zero Principle</div>
+        <div class="matrix-grid">
+            <div class="matrix-item">
+                <div class="item-header">
+                    <div class="item-title">Treasure Hunt Ledger & Conduct</div>
+                    <div class="item-meta">Human Connection • Kind Intercepts</div>
+                </div>
+                <div class="ledger-text">
+                    <p>This installation breathes through quiet human curiosity and unexpected moments of discovery. If you have crossed paths with a physical plate in the world, your destiny is your own choice:</p>
+                    <ul>
+                        <li>Share your location and a glimpse of the artifact's new home via our master digital guestbook.</li>
+                        <li>Or, keep your encounter entirely secret and take your physical token home with you as a private talisman.</li>
+                    </ul>
+                    <p>Whichever path you walk, we invite you to perform one beautiful, entirely anonymous act of unmeasured kindness today. Keep the true signals of the world moving forward.</p>
+                    <div class="ledger-link">
+                        <a href="https://geocaching.com" target="_blank">[ Sign Master Digital Ledger ]</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <p><em>— The creative spark behind the signal:</em> <strong>Captivated</strong></p>
+    <!-- 05 // STUDY PRETTY COINZ -->
+    <section>
+        <div class="section-label">05 // Independent Analytical Evaluation</div>
+        <div class="matrix-grid">
+            <div class="matrix-item">
+                <div class="item-header">
+                    <div class="item-title">Study: Pretty Coinz</div>
+                    <div class="item-meta">Aesthetic Affection • Material Beauty</div>
+                </div>
+                <p class="item-description">An artistic inquiry treating alternative coinage, rare tokens, and our custom poetry plates as small, tangible canvases of human craftsmanship and graphic expression. Every benchmark here is deeply personal, local, and focused purely on design value.</p>
+            </div>
+        </div>
+    </section>
 
-    <hr>
+    <!-- FOOTER -->
+    <footer>
+        <div>Angela N. Moore © 2026 | The Moore Signal Archive LLC</div>
+        <div>Glastonbury, Connecticut 06033</div>
+    </footer>
 
-    <h3>🤍 The Positive Zero Principle</h3>
-
-    <p>There is a larger, quiet treasure hunt moving through the world behind this project, built on human connection and the thrill of discovery. If you found one of our custom plates, you are warmly invited to choose your own path:</p>
-
-    <ul>
-        <li>Click the link below to visit our central global guestbook, leave a <strong>"Write Note"</strong> to say hello, and share a photo of where the coin found you.</li>
-        <li>Or, simply keep silent and take your physical gift home with you.</li>
-    </ul>
-
-    <p>Whichever you choose, we invite you to perform <strong>one anonymous act of kindness</strong> today. Kindness is completely free, entirely priceless, and it keeps the world's best signals moving forward.</p>
-
-    <p>🖋️ <strong><a href="https://www.geocaching.com" target="_blank">Sign the Master Digital Archive Ledger on Geocaching.com</a></strong></p>
-
-    <hr>
-
-    <h3>💎 Study: PRETTY COINZ</h3>
-
-    <p><em>PRETTY COINZ</em> is our independent visual study of numismatics, evaluating unique coinage, alternative tokens, and our custom poetry plates through a purely aesthetic lens. This inquiry treats these objects as tactile canvases of human design and craftsmanship. All benchmarks are internal, non-commercial, and asset-focused for artistic evaluation only.</p>
-
-    <hr>
-
-    <p class="footer-line"><code>Angela N. Moore © 2026 | The Moore Signal Archive LLC</code></p>
-    <p class="footer-line"><code>Glastonbury, Connecticut 06033</code></p>
-
+</div>
 </body>
 </html>
